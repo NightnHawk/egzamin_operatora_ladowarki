@@ -1,0 +1,72 @@
+[
+    {
+        "id": 21,
+        "task": "Proszę sprawdzić poprawność działania \"sygnalizatora dźwiękowego biegu wstecznego\" i potwierdzić w instrukcji obsługi czy maszyna, na której przeprowadzany jest egzamin jest w niego wyposażona fabrycznie. Jakie czynności powinien podjąć operator w przypadku stwierdzenia niesprawności tego sygnalizatora.",
+        "image": null
+    },
+    {
+        "id": 22,
+        "task": "Proszę wskazać blokadę złącza przegubowego oraz omówić, w jakich sytuacjach jej używamy.",
+        "image": null
+    },
+    {
+        "id": 23,
+        "task": "Proszę przeprowadzić kontrolę kompletności obowiązkowego wyposażenia maszyny lub urządzenia pod kątem bezpieczeństwa pracy i obsługi. Kontrola przed podjęciem pracy w ramach obsługi technicznej codziennej.",
+        "image": null
+    },
+    {
+        "id": 24,
+        "task": "Proszę przeprowadzić obsługę systemu centralnego smarowania. W przypadku kiedy maszyna w taki układ nie jest wyposażona proszę omówić, w jaki sposób jest realizowana obsługa punktów smarnych.",
+        "image": null
+    },
+    {
+        "id": 25,
+        "task": "Proszę sprawdzić poziom oleju w skrzyni biegów maszyny, na której jest przeprowadzany egzamin. Proszę omówić sposób jego kontroli zgodnie z procedurą przewidzianą w instrukcji obsługi i eksploatacji, mając na uwadze wiarygodność odczytu.",
+        "image": null
+    },
+    {
+        "id": 26,
+        "task": "Proszę wskazać skrzynkę bezpiecznikową maszyny, na której jest przeprowadzany egzamin. Proszę podać parametry bezpiecznika dla zabezpieczenia obwodu oświetlenia roboczego oraz podać główną zasadę wymiany bezpieczników.",
+        "image": null
+    },
+    {
+        "id": 27,
+        "task": "Proszę sprawdzić, czy na wyposażeniu maszyny powinna być gaśnica. W przypadku potwierdzenia takiej okoliczności proszę wskazać miejsce jej przechowywania oraz skontrolować termin jej ważności.",
+        "image": null
+    },
+    {
+        "id": 28,
+        "task": "Proszę omówić obsługę układu roboczego przy założeniu, że czynności te zostaną wykonane w ramach obsługi technicznej codziennej bezpośrednio po pracy.",
+        "image": null
+    },
+    {
+        "id": 29,
+        "task": "Proszę omówić procedurę zerowania układu hydraulicznego z uwzględnieniem warunków technicznych maszyny, na której jest przeprowadzany egzamin. Proszę omówić w jakich sytuacjach zerowanie układu hydraulicznego jest konieczne.",
+        "image": null
+    },
+    {
+        "id": 30,
+        "task": "Proszę omówić przygotowanie maszyny do przejazdu po drogach publicznych zgodnie z przepisami i założeniami instrukcji obsługi i eksploatacji.",
+        "image": null
+    },
+    {
+        "id": 31,
+        "task": "Proszę omówić znaczenie trzech dowolnie wybranych piktogramów umieszczonych na maszynie lub urządzeniu lub wskazanych w instrukcji obsługi i eksploatacji. Zadania technologiczne na egzamin praktyczny",
+        "image": null
+    },
+    {
+        "id": 1,
+        "task": "Proszę wykonać dwa cykle nabierania urobku do łyżki ładowarki z transportem na odkład.",
+        "image": null
+    },
+    {
+        "id": 2,
+        "task": "Proszę wyrównać teren przy jeździe do tyłu przy pomocy dostępnych funkcji maszyny na odcinku około 5 [m].",
+        "image": null
+    },
+    {
+        "id": 3,
+        "task": "Proszę wykonać dwa cykle nabierania urobku do łyżki ładowarki z symulacją załadunku na środek transportu.",
+        "image": null
+    }
+]

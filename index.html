@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Egzamin: Koparkoładowarki Klasa III</title>
+    <style>
+        :root { --primary: #2563eb; --success: #22c55e; --error: #ef4444; --bg: #f8fafc; --skip: #64748b; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: var(--bg); margin: 0; display: flex; justify-content: center; padding: 20px; }
+        .container { background: white; max-width: 700px; width: 100%; padding: 30px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); }
+        .header { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-bottom: 20px; }
+        .question-img { max-width: 100%; height: auto; border-radius: 8px; margin: 15px 0; display: block; border: 1px solid #ddd; margin-left: auto; margin-right: auto; }
+        .question-text { font-size: 1.2rem; font-weight: 600; color: #1e293b; margin-bottom: 20px; }
+        .option { display: block; width: 100%; padding: 15px; margin: 10px 0; border: 2px solid #e2e8f0; border-radius: 8px; text-align: left; cursor: pointer; transition: all 0.2s; font-size: 1rem; background: none; }
+        .option:hover:not([disabled]) { border-color: var(--primary); background: #eff6ff; }
+        .option.correct { background-color: var(--success) !important; color: white; border-color: var(--success); }
+        .option.incorrect { background-color: var(--error) !important; color: white; border-color: var(--error); }
+        .controls { margin-top: 30px; display: flex; justify-content: space-between; gap: 10px; }
+        
+        button.action-btn { border: none; padding: 12px 25px; border-radius: 6px; cursor: pointer; font-weight: bold; transition: opacity 0.2s; }
+        #next-btn { background: var(--primary); color: white; flex-grow: 2; }
+        #skip-btn { background: var(--skip); color: white; flex-grow: 1; }
+        button.action-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+        
+        .stats { font-size: 0.9rem; color: #64748b; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <div class="stats">Pytanie <span id="current-idx">1</span> z <span id="total-count">0</span></div>
+        <div class="stats">Wynik: <span id="score">0</span></div>
+    </div>
+
+    <div id="quiz-box">
+        <div id="q-text" class="question-text">Ładowanie pytań...</div>
+        <img id="q-img" class="question-img" style="display:none;">
+        
+        <div id="options-container">
+            <button class="option" id="btn-a" onclick="checkAnswer('a')">a) <span id="opt-a"></span></button>
+            <button class="option" id="btn-b" onclick="checkAnswer('b')">b) <span id="opt-b"></span></button>
+            <button class="option" id="btn-c" onclick="checkAnswer('c')">c) <span id="opt-c"></span></button>
+        </div>
+    </div>
+
+    <div class="controls">
+        <button id="skip-btn" class="action-btn" onclick="skipQuestion()">Pomiń</button>
+        <button id="next-btn" class="action-btn" onclick="nextQuestion()" disabled>Następne →</button>
+    </div>
+</div>
+
+<script>
+    let questions = [];
+    let currentIdx = 0;
+    let score = 0;
+
+async function loadQuiz() {
+    try {
+        const response = await fetch('questions_test.json');
+        
+        // Sprawdź czy plik w ogóle istnieje na serwerze
+        if (!response.ok) {
+            throw new Error(`Nie znaleziono pliku JSON (HTTP ${response.status})`);
+        }
+
+        const data = await response.json();
+        
+        // Sprawdź czy dane to tablica i czy nie jest pusta
+        if (!Array.isArray(data)) {
+            throw new Error("Format danych jest nieprawidłowy (oczekiwano listy [])");
+        }
+        
+        if (data.length === 0) {
+            throw new Error("Plik JSON jest pusty (brak pytań)");
+        }
+
+        questions = data;
+        document.getElementById('total-count').innerText = questions.length;
+        showQuestion();
+        console.log("Pomyślnie załadowano pytań:", questions.length);
+
+    } catch (e) {
+        console.error("Szczegółowy błąd:", e);
+        document.getElementById('q-text').innerHTML = `
+            <div style="color: red; font-weight: bold;">
+                Błąd krytyczny: ${e.message}<br>
+                <small style="color: gray;">Sprawdź czy plik questions_test.json znajduje się w tym samym folderze co index.html</small>
+            </div>
+        `;
+    }
+}
+
+function showQuestion() {
+    if (!questions || questions.length === 0) return;
+
+    const q = questions[currentIdx];
+    document.getElementById('current-idx').innerText = currentIdx + 1;
+    
+    // Zabezpieczenie przed brakującym tekstem pytania
+    document.getElementById('q-text').innerText = q.question || "Brak treści pytania w pliku JSON";
+    
+    document.getElementById('opt-a').innerText = q.options?.a || "";
+    document.getElementById('opt-b').innerText = q.options?.b || "";
+    document.getElementById('opt-c').innerText = q.options?.c || "";
+
+    const imgElement = document.getElementById('q-img');
+    if (q.image) {
+        // Dodajemy timestamp, aby uniknąć cache'owania obrazków przez przeglądarkę
+        imgElement.src = `extracted_images/${q.image}?t=${new Date().getTime()}`;
+        imgElement.style.display = 'block';
+        
+        // Obsługa błędu ładowania obrazka
+        imgElement.onerror = () => {
+            console.warn(`Nie znaleziono obrazka: extracted_images/${q.image}`);
+            imgElement.style.display = 'none';
+        };
+    } else {
+        imgElement.style.display = 'none';
+    }
+
+    const btns = document.querySelectorAll('.option');
+    btns.forEach(btn => {
+        btn.className = 'option';
+        btn.disabled = false;
+    });
+    document.getElementById('next-btn').disabled = true;
+    document.getElementById('skip-btn').disabled = false;
+}
+
+    function checkAnswer(choice) {
+        const q = questions[currentIdx];
+        const btns = document.querySelectorAll('.option');
+        
+        btns.forEach(btn => btn.disabled = true);
+        document.getElementById('skip-btn').disabled = true;
+        
+        if (choice === q.correct_answer) {
+            document.getElementById(`btn-${choice}`).classList.add('correct');
+            score++;
+            document.getElementById('score').innerText = score;
+        } else {
+            document.getElementById(`btn-${choice}`).classList.add('incorrect');
+            const correctBtn = document.getElementById(`btn-${q.correct_answer}`);
+            correctBtn.classList.add('correct');
+        }
+        
+        document.getElementById('next-btn').disabled = false;
+    }
+
+    function skipQuestion() {
+        // Po prostu przechodzimy dalej bez sprawdzania
+        nextQuestion();
+    }
+
+    function nextQuestion() {
+        currentIdx++;
+        if (currentIdx < questions.length) {
+            showQuestion();
+        } else {
+            alert(`Koniec testu! Twój wynik: ${score}/${questions.length}`);
+            currentIdx = 0;
+            score = 0;
+            document.getElementById('score').innerText = "0";
+            showQuestion();
+        }
+    }
+
+    loadQuiz();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,3962 @@
+[
+    {
+        "id": 1,
+        "question": "Ile wynosi minimalna dopuszczalna odległość maszyny od zasięgu klina odłamu?",
+        "options": {
+            "a": "0,8 [m],",
+            "b": "0,6 [m],",
+            "c": "0,4 [m]."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 2,
+        "question": "Bezpieczna odległość maszyny od wykopu to:",
+        "options": {
+            "a": "1,6 [m],",
+            "b": "głębokość wykopu + 0,6 [m],",
+            "c": "zasięg działania klina odłamu + 0,6 [m]."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 3,
+        "question": "W oparciu o przedstawioną tabelę określ bezpieczną minimalną odległość maszyny od dna wykopu o głębokości h = 2 [m] wykonanego w gruntach spoistych:",
+        "options": {
+            "a": "1,6 [m],",
+            "b": "1 [m],",
+            "c": "2,6 [m]."
+        },
+        "correct_answer": "a",
+        "image": "page_1_Image22.jpg"
+    },
+    {
+        "id": 4,
+        "question": "W oparciu o przedstawioną tabelę określ bezpieczną minimalną odległość maszyny od dna wykopu o głębokości h = 3 [m] wykonanego w spękanych skałach:",
+        "options": {
+            "a": "2,6 [m],",
+            "b": "3,6 [m],",
+            "c": "4,6 [m]."
+        },
+        "correct_answer": "b",
+        "image": "page_1_Image22.jpg"
+    },
+    {
+        "id": 5,
+        "question": "W oparciu o przedstawioną tabelę określ bezpieczną minimalną odległość maszyny od dna wykopu o głębokości h = 2 [m] wykonanego w gruntach mało spoistych:",
+        "options": {
+            "a": "3,6 [m],",
+            "b": "2,6 [m],",
+            "c": "3,1 [m]. Ładowarki jednonaczyniowe Klasa III"
+        },
+        "correct_answer": "c",
+        "image": "page_1_Image22.jpg"
+    },
+    {
+        "id": 6,
+        "question": "Jaka jest minimalna bezpieczna odległość od GÓRNEJ krawędzi nasypu, na którą może podjechać maszyna, dla poniższych danych: Kategoria gruntu - I (piasek suchy), wysokość nasypu - h = 2 [m], pozioma odległość między górną, a dolną krawędzią nasypu - a = 2,5 [m]?",
+        "options": {
+            "a": "3,6 [m],",
+            "b": "1,1 [m],",
+            "c": "0,6 [m]."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 7,
+        "question": "Jaka jest minimalna bezpieczna odległość od GÓRNEJ krawędzi nasypu, na którą może podjechać maszyna, dla poniższych danych: Kategoria gruntu - II (grunty mało spoiste), wysokość nasypu - h = 4 [m], pozioma odległość między górną, a dolną krawędzią nasypu - a = 2,5 [m]?",
+        "options": {
+            "a": "5,6 [m],",
+            "b": "0,6 [m],",
+            "c": "3,1 [m]."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 8,
+        "question": "W jakiej odległości mierzonej w poziomie od skrajnych przewodów dla linii elektroenergetycznych o napięciu znamionowym nieprzekraczającym 1 [kV] dopuszczalna jest praca maszyną lub urządzeniem technicznym?",
+        "options": {
+            "a": "nie mniejszej niż 3 [m],",
+            "b": "nie mniejszej niż 2 [m],",
+            "c": "nie mniejszej niż 5 [m]."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 9,
+        "question": "W jakiej odległości mierzonej w poziomie od skrajnych przewodów dla linii elektroenergetycznych o napięciu znamionowym powyżej 1 [kV], lecz nie przekraczającym 15 [kV] dopuszczalna jest praca maszyną lub urządzeniem technicznym?",
+        "options": {
+            "a": "nie mniejszej niż 5 [m],",
+            "b": "nie mniejszej niż 15 [m],",
+            "c": "nie mniejszej niż 10 [m]."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 10,
+        "question": "W jakiej odległości mierzonej w poziomie od skrajnych przewodów dla linii elektroenergetycznych o napięciu znamionowym powyżej 15 [kV], lecz nie przekraczającym 30 [kV] dopuszczalna jest praca maszyną lub urządzeniem technicznym?",
+        "options": {
+            "a": "nie mniejszej niż 5 [m],",
+            "b": "nie mniejszej niż 10 [m],",
+            "c": "nie mniejszej niż 15 [m]."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 11,
+        "question": "W jakiej odległości mierzonej w poziomie od skrajnych przewodów dla linii elektroenergetycznych o napięciu znamionowym powyżej 30 [kV], lecz nie przekraczającym 110 [kV] dopuszczalna jest praca maszyną lub urządzeniem technicznym?",
+        "options": {
+            "a": "nie mniejszej niż 20 [m],",
+            "b": "nie mniejszej niż 15 [m],",
+            "c": "nie mniejszej niż 10 [m]."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 12,
+        "question": "W jakiej odległości mierzonej w poziomie od skrajnych przewodów dla linii elektroenergetycznych o napięciu znamionowym powyżej 110 [kV] dopuszczalna jest praca maszyną lub urządzeniem technicznym?",
+        "options": {
+            "a": "nie mniejszej niż 30 [m],",
+            "b": "nie mniejszej niż 10 [m],",
+            "c": "nie mniejszej niż 15 [m]."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 13,
+        "question": "Czy w strefie niebezpiecznej pod napowietrznymi liniami elektroenergetycznymi można organizować stanowiska pracy?",
+        "options": {
+            "a": "tak, ale tylko po spełnieniu dodatkowych wymagań,",
+            "b": "tak, zawsze,",
+            "c": "nie, nigdy."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 14,
+        "question": "Ile wynosi bezpieczna odległość X dla pracy maszyną lub urządzeniem technicznym przy napowietrznych liniach elektroenergetycznych o napięciu znamionowym równym 400 [V]?",
+        "options": {
+            "a": "nie mniej niż 5 [m],",
+            "b": "nie mniej niż 30 [m],",
+            "c": "nie mniej niż 3 [m]."
+        },
+        "correct_answer": "c",
+        "image": "page_3_Image27.jpg"
+    },
+    {
+        "id": 15,
+        "question": "Ile wynosi bezpieczna odległość X dla pracy maszyną lub urządzeniem technicznym przy napowietrznych liniach elektroenergetycznych o napięciu znamionowym powyżej 1 [kV], lecz nie przekraczającym 15 [kV]?",
+        "options": {
+            "a": "nie mniej niż 15 [m],",
+            "b": "nie mniej niż 10 [m],",
+            "c": "nie mniej niż 5 [m]."
+        },
+        "correct_answer": "c",
+        "image": "page_3_Image27.jpg"
+    },
+    {
+        "id": 16,
+        "question": "Ile wynosi bezpieczna odległość X dla pracy maszyną lub urządzeniem technicznym przy napowietrznych liniach elektroenergetycznych o napięciu znamionowym 20 [kV]?",
+        "options": {
+            "a": "nie mniej niż 30 [m],",
+            "b": "nie mniej niż 15 [m],",
+            "c": "nie mniej niż 10 [m]."
+        },
+        "correct_answer": "c",
+        "image": "page_4_Image27.jpg"
+    },
+    {
+        "id": 17,
+        "question": "Ile wynosi bezpieczna odległość X dla pracy maszyną lub urządzeniem technicznym przy napowietrznych liniach elektroenergetycznych o napięciu znamionowym 20 [kV]?",
+        "options": {
+            "a": "nie mniej niż 15 [m],",
+            "b": "nie mniej niż 5 [m],",
+            "c": "nie mniej niż 10 [m]."
+        },
+        "correct_answer": "c",
+        "image": "page_4_Image27.jpg"
+    },
+    {
+        "id": 18,
+        "question": "Ile wynosi bezpieczna odległość X dla pracy maszyną lub urządzeniem technicznym przy napowietrznych liniach elektroenergetycznych o napięciu znamionowym powyżej 30 [kV], lecz nie przekraczającym 110 [kV]?",
+        "options": {
+            "a": "nie mniej niż 15 [m],",
+            "b": "nie mniej niż 30 [m],",
+            "c": "nie mniej niż 50 [m]."
+        },
+        "correct_answer": "a",
+        "image": "page_4_Image27.jpg"
+    },
+    {
+        "id": 19,
+        "question": "Ile wynosi bezpieczna odległość X dla pracy maszyną lub urządzeniem technicznym przy napowietrznych liniach elektroenergetycznych o napięciu znamionowym powyżej 15 [kV], lecz nie przekraczającym 30 [kV]?",
+        "options": {
+            "a": "nie mniej niż 15 [m],",
+            "b": "nie mniej niż 10 [m],",
+            "c": "nie mniej niż 30 [m]."
+        },
+        "correct_answer": "b",
+        "image": "page_4_Image27.jpg"
+    },
+    {
+        "id": 20,
+        "question": "Ile wynosi bezpieczna odległość X dla pracy maszyną lub urządzeniem technicznym przy napowietrznych liniach elektroenergetycznych o napięciu znamionowym 400 [kV]?",
+        "options": {
+            "a": "nie mniej niż 30 [m],",
+            "b": "nie mniej niż 40 [m],",
+            "c": "nie mniej niż 3 [m]."
+        },
+        "correct_answer": "a",
+        "image": "page_4_Image27.jpg"
+    },
+    {
+        "id": 21,
+        "question": "Prace w obszarze strefy niebezpiecznej (linia energetyczna napowietrzna wysokiego napięci",
+        "options": {
+            "a": ": a) w żadnym wypadku nie mogą być prowadzone pod liniami elektrycznymi w strefie niebezpiecznej,",
+            "b": "mogą być prowadzone pod warunkiem, że odłączono linię od napięcia, praca jest wykonywana w strefie ograniczonej uziemieniami i co najmniej jedno uziemienie jest widoczne z miejsca wykonywania pracy,",
+            "c": "mogą być prowadzone pod warunkiem, że została wydana zgoda kierownika robót."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 22,
+        "question": "Operator ma wykonać pracę w odległości X od czynnej napowietrznej linii elektroenergetycznej o napięciu znamionowym 400 [V]. Może on podjąć pracę, jeśli odległość ta wynosi:",
+        "options": {
+            "a": "2 [m],",
+            "b": "1 [m],",
+            "c": "5 [m]."
+        },
+        "correct_answer": "c",
+        "image": "page_5_Image27.jpg"
+    },
+    {
+        "id": 23,
+        "question": "Operator ma wykonać pracę w odległości X od czynnej napowietrznej linii elektroenergetycznej o napięciu znamionowym 20 [kV]. Może on podjąć pracę, jeśli odległość ta wynosi:",
+        "options": {
+            "a": "15 [m],",
+            "b": "3 [m],",
+            "c": "5 [m]."
+        },
+        "correct_answer": "a",
+        "image": "page_5_Image27.jpg"
+    },
+    {
+        "id": 24,
+        "question": "Operator ma wykonać pracę w odległości X od czynnej napowietrznej linii elektroenergetycznej o napięciu znamionowym 400 [kV]. Może on podjąć pracę, jeśli odległość ta wynosi:",
+        "options": {
+            "a": "5 [m],",
+            "b": "15 [m],",
+            "c": "50 [m]."
+        },
+        "correct_answer": "c",
+        "image": "page_5_Image27.jpg"
+    },
+    {
+        "id": 25,
+        "question": "Jeśli poszkodowany ma wyczuwalne tętno, a nie oddycha, to:",
+        "options": {
+            "a": "należy udrożnić drogi oddechowe i rozpocząć sztuczne oddychanie,",
+            "b": "należy wykonać masaż serca,",
+            "c": "nie wolno go dotykać."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 26,
+        "question": "Przy udzielaniu pierwszej pomocy poszkodowanym w wypadku należy przede wszystkim:",
+        "options": {
+            "a": "udzielić pomocy osobom z zagrożeniem życia,",
+            "b": "oddalić się z miejsca wypadku w celu wezwania lekarza,",
+            "c": "podać rannym leki."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 27,
+        "question": "Przy udzielaniu pierwszej pomocy poszkodowanym w wypadku należy przede wszystkim:",
+        "options": {
+            "a": "oddalić się z miejsca wypadku w celu wezwania lekarza,",
+            "b": "zadbać o własne bezpieczeństwo,",
+            "c": "udzielić pomocy osobom z zagrożeniem życia."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 28,
+        "question": "Obowiązek udzielenia pierwszej pomocy ofiarom wypadku spoczywa na:",
+        "options": {
+            "a": "każdym, ale za popełnione błędy zawsze grozi odpowiedzialność karna,",
+            "b": "tylko osobach, które mają przygotowanie medyczne,",
+            "c": "każdym, ponieważ zawsze można wykonać część zadań ratunkowych."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 29,
+        "question": "Ofiara wypadku po kilku minutach odzyskała przytomność i chce iść do domu. W takiej sytuacji należy:",
+        "options": {
+            "a": "namawiać ją do pozostania i wezwać pomoc medyczną,",
+            "b": "pozwolić jej iść do domu, zalecając wizytę u lekarza,",
+            "c": "podać jej coś do picia i środki przeciwbólowe."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 30,
+        "question": "Pierwsza pomoc w sytuacji, kiedy do oka osoby poszkodowanej dostało się ciało obce, polega na:",
+        "options": {
+            "a": "płukaniu czystą wodą kierując strumień od nosa na zewnątrz oka,",
+            "b": "przepłukaniu oka kroplami do oczu,",
+            "c": "płukaniu wodą destylowaną kierując strumień do środka oka."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 31,
+        "question": "Osoba poszkodowana rozcięła nogę o niezabezpieczony ostry element. Udzielenie pierwszej pomocy w tej sytuacji to:",
+        "options": {
+            "a": "przyklejenie plastra bezpośrednio na ranę,",
+            "b": "zastosowanie gazy jałowej, owinięcie rany bandażem,",
+            "c": "użycie opaski uciskowej."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 32,
+        "question": "Podejrzewając uszkodzenie kręgosłupa u osoby, która spadła z wysokości i jest przytomna, należy:",
+        "options": {
+            "a": "usadzić ją w pozycji półleżącej,",
+            "b": "nie ruszać jej i czekać na przybycie służb medycznych,",
+            "c": "położyć ją w pozycji bocznej ustalonej."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 33,
+        "question": "Aby oddalić się z miejsca, w którym został przerwany przewód elektryczny i obszar jest pod napięciem należy:",
+        "options": {
+            "a": "odejść z tego miejsca powoli, drobnymi krokami, starając się utrzymać ciągły kontakt stóp z ziemią,",
+            "b": "jak najszybciej pobiec w miejsce, które oceniamy jako bezpieczne,",
+            "c": "szybko, dużymi krokami, odejść od źródła rażenia prądem podnosząc wysoko stopy."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 34,
+        "question": "Pierwsza pomoc w przypadku poparzenia I stopnia to:",
+        "options": {
+            "a": "smarowanie oparzonego miejsca tłustym kremem,",
+            "b": "polewanie oparzonego miejsca zimną wodą,",
+            "c": "smarowanie oparzonego miejsca maścią."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 35,
+        "question": "Podczas pracy została zerwana linia energetyczna wysokiego napięcia, wskutek czego rażony prądem został współpracownik. W tej sytuacji prawidłowe zachowanie to:",
+        "options": {
+            "a": "zawołać innych współpracowników do pomocy przy poszkodowanym,",
+            "b": "jak najszybciej wyłączyć źródło prądu,",
+            "c": "podejść do poszkodowanego w celu udzielenia pierwszej pomocy."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 36,
+        "question": "Resuscytację krążeniowo-oddechową prowadzimy do momentu, gdy:",
+        "options": {
+            "a": "przyjedzie straż pożarna i zabezpieczy teren,",
+            "b": "minie 10 minut,",
+            "c": "stwierdziliśmy, że ofiara zaczęła oddychać i powróciło u niej krążenie."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 37,
+        "question": "Doraźne działanie w przypadku silnego krwawienia ze zranionej kończyny górnej obejmuje:",
+        "options": {
+            "a": "odkażenie rany spirytusem salicylowym,",
+            "b": "opuszczenie kończyny poniżej poziomu serca,",
+            "c": "założenie opatrunku, bezpośrednie uciśnięcie miejsca krwawienia i uniesienie kończyny."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 38,
+        "question": "W przypadku krwawienia z nosa należy:",
+        "options": {
+            "a": "pochylić głowę krwawiącego do przodu, ucisnąć skrzydełka nosa,",
+            "b": "położyć poszkodowanego na plecach,",
+            "c": "odchylić głowę do tyłu i położyć zimny kompres na kark."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 39,
+        "question": "Pierwszy krok w postępowaniu z ofiarą zatrucia czadem w zamkniętym pomieszczeniu to:",
+        "options": {
+            "a": "ocena ABC,",
+            "b": "jak najszybsza ewakuacja poszkodowanego z tego pomieszczenia,",
+            "c": "przeprowadzenie badania wstępnego."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 40,
+        "question": "Pierwsza pomoc w czasie trwania drgawek spowodowanych wystąpieniem ataku epilepsji (padaczki) polega na:",
+        "options": {
+            "a": "włożeniu do ust poszkodowanego drewnianego przedmiotu w celu zabezpieczenia przed przygryzieniem języka,",
+            "b": "zabezpieczeniu głowy poszkodowanego przed urazami,",
+            "c": "posadzeniu poszkodowanego w pozycji półsiedzącej i podaniu czegoś do picia."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 41,
+        "question": "W razie podejrzenia uszkodzenia kręgosłupa w odcinku szyjnym u osoby przytomnej należy:",
+        "options": {
+            "a": "posadzić poszkodowanego na krzesło z wysokim oparciem,",
+            "b": "ułożyć poszkodowanego w pozycji bocznej,",
+            "c": "nie pozwolić poszkodowanemu poruszać głową."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 42,
+        "question": "Najistotniejszą rzeczą w momencie zasypania osoby ziemią, piaskiem lub żwirem jest:",
+        "options": {
+            "a": "czekanie na przyjazd karetki ratunkowej,",
+            "b": "powiadomienie rodziny,",
+            "c": "zlokalizowanie poszkodowanego."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 43,
+        "question": "Pierwsza pomoc osobie, u której w podudzie został wbity metalowy pręt polega na wezwaniu pomocy i:",
+        "options": {
+            "a": "wyjęciu wbitego pręta,",
+            "b": "poruszeniu prętem celem sprawdzenia, czy uszkodzona została tętnica,",
+            "c": "zabezpieczeniu pręta przed poruszeniem."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 44,
+        "question": "Wskazaniem do użycia defibrylatora AED jest:",
+        "options": {
+            "a": "silny ból w klatce piersiowej,",
+            "b": "brak wyczuwalnego oddechu i tętna u poszkodowanego,",
+            "c": "silne zawroty głowy."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 45,
+        "question": "Podczas eksploatacji maszyny/urządzenia, na które zdajesz egzamin czynnościami zabronionymi są:",
+        "options": {
+            "a": "przeprowadzenie obsługi technicznej codziennej (OTC),",
+            "b": "wymiana narzędzia roboczego,",
+            "c": "dokonywanie zmian konstrukcyjnych w maszynie/urządzeniu."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 46,
+        "question": "Podczas eksploatacji maszyny/urządzenia, na które zdajesz egzamin czynnościami zabronionymi są:",
+        "options": {
+            "a": "czyszczenie maszyny/urządzenia przy użyciu benzyny lub rozpuszczalników, których opary mogą tworzyć z powietrzem mieszaniny gazów palnych/wybuchowych,",
+            "b": "tankowanie maszyny/urządzenia z kanistra,",
+            "c": "czyszczenie maszyny/urządzenia przy użyciu środka zgodnego z instrukcją obsługi i eksploatacji."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 47,
+        "question": "Podczas wykonywania robót ziemnych maszyną, na którą zdajesz egzamin niedopuszczalne jest:",
+        "options": {
+            "a": "używanie lemiesza maszyny w bezpiecznej odległości od wykopu,",
+            "b": "ustawienie maszyny w zasięgu klina odłamu,",
+            "c": "wysuwanie lemiesza maszyny w kierunku wykopu."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 48,
+        "question": "Podczas wykonywania robót ziemnych maszyną, na którą zdajesz egzamin niedopuszczalne jest:",
+        "options": {
+            "a": "używania maszyny na gruntach gliniastych przy temperaturach powietrza poniżej -5°C,",
+            "b": "używania maszyny na gruntach gliniastych przy temperaturach powietrza powyżej 30°C,",
+            "c": "używanie maszyny na gruntach gliniastych w czasie trwania ulewnego deszczu."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 49,
+        "question": "Podczas wykonywania robót ziemnych maszyną, na którą zdajesz egzamin niedopuszczalne jest:",
+        "options": {
+            "a": "przebywania osób w pobliżu maszyny podczas wykonywania obsług technicznych,",
+            "b": "przebywanie osób w odległości większej niż suma największego zasięgu narzędzia roboczego plus 6 metrów,",
+            "c": "przebywanie osób w zasięgu działania narzędzia roboczego maszyny."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 50,
+        "question": "Podczas wykonywania robót niedopuszczalne jest:",
+        "options": {
+            "a": "praca w pobliżu czynnej linii energetycznej o napięciu 10 [kV] w odległości 10 [m],",
+            "b": "praca w pobliżu czynnej linii energetycznej o napięciu 20 [kV] w odległości 15 [m],",
+            "c": "praca w pobliżu czynnych napowietrznych linii energetycznych w odległości mniejszej niż to określają przepisy."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 51,
+        "question": "Maszyna/urządzenie, na którą zdajesz egzamin może być obsługiwana wyłącznie przez:",
+        "options": {
+            "a": "osobę posiadającą pisemne potwierdzenie ukończenia kursu w formie karty z tworzywa sztucznego,",
+            "b": "każdą osobę pełnoletnią posiadającą wykształcenie techniczne oraz prawo jazdy odpowiedniej kategorii,",
+            "c": "osobę, która ukończyła szkolenie i uzyskała pozytywny wynik sprawdzianu przeprowadzonego przez komisję powołaną przez Sieć Badawczą Łukasiewicz – Warszawski Instytut Technologiczny."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 52,
+        "question": "Uprawnienia do obsługi maszyn/urządzeń, na które zdajesz egzamin są wydawane przez:",
+        "options": {
+            "a": "Urząd Dozoru Technicznego (UDT),",
+            "b": "Sieć Badawczą Łukasiewicz - Warszawski Instytut Technologiczny (SBŁ - WIT),",
+            "c": "Starostwo Powiatowe właściwe dla adresu zamieszkania osoby ubiegającej się o uprawnienia."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 53,
+        "question": "Uprawnienia do obsługi maszyn/urządzeń, na które zdajesz egzamin:",
+        "options": {
+            "a": "są ważne bezterminowo,",
+            "b": "są ważne przez 5 lat od daty ich wydania,",
+            "c": "są ważne przez 10 lat od daty ich wydania."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 54,
+        "question": "Osoba posiadająca uprawnienia do obsługi: \"Ładowarki jednonaczyniowe kl. III\" może na ich podstawie obsługiwać:",
+        "options": {
+            "a": "ładowarki jednonaczyniowe do 20 [t] masy eksploatacyjnej oraz spycharki do 110 [kW] mocy silnika,",
+            "b": "tylko ładowarki jednonaczyniowe powyżej 20 [t] masy eksploatacyjnej,",
+            "c": "wszystkie ładowarki jednonaczyniowe oraz spycharki do 110 [kW] mocy silnika."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 55,
+        "question": "Pracownik obsługujący maszynę/urządzenie, na które zdajesz egzamin może podjąć pracę pod warunkiem, że:",
+        "options": {
+            "a": "maszyna/urządzenie posiada ważny przegląd UDT,",
+            "b": "posiada ważne prawo jazdy kategorii D,",
+            "c": "posiada uprawnienia do obsługi tego typu maszyny/urządzenia."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 56,
+        "question": "W sytuacji stwierdzenia zagrożenia dla życia, zdrowia, mienia lub środowiska, którego przyczyną jest awaria maszyny/urządzenia operator:",
+        "options": {
+            "a": "kontynuuje pracę, ale na koniec zmiany informuje przełożonego o zaistniałej sytuacji,",
+            "b": "niezwłocznie wstrzymuje wykonywanie pracy i informuje o tym fakcie przełożonego,",
+            "c": "kontynuuje pracę, ale na koniec zmiany dokonuje odpowiedniego wpisu w książce konserwacji."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 57,
+        "question": "Podnoszenie i przewożenie osób przy użyciu osprzętu roboczego:",
+        "options": {
+            "a": "jest zawsze zabronione,",
+            "b": "wymaga zgody kierownika budowy,",
+            "c": "jest możliwe, ale tylko poza terenem drogi publicznej."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 58,
+        "question": "Pracownik obsługujący maszynę/urządzenie, na które zdajesz egzamin ma prawo odmówić podjęcia pracy, gdy:",
+        "options": {
+            "a": "praca ta wymaga szczególnej sprawności psychofizycznej, a jego stan psychofizyczny nie zapewnia bezpiecznego jej wykonywania i stwarza zagrożenie dla innych osób,",
+            "b": "w odległości 35 metrów znajduje się napowietrzna linia energetyczna o napięciu 110 [kV],",
+            "c": "posiada wymagane środki ochrony indywidualnej."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 59,
+        "question": "Pracownik obsługujący maszynę/urządzenie, na które zdajesz egzamin ma obowiązek przerwać pracę, gdy:",
+        "options": {
+            "a": "w odległości 35 metrów znajduje się napowietrzna linia energetyczna,",
+            "b": "wykonywana przez niego praca stwarza bezpośrednie zagrożenie dla zdrowia lub życia innych osób,",
+            "c": "posiada wymagane środki ochrony indywidualnej."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 60,
+        "question": "Pracownik obsługujący maszynę/urządzenie, na które zdajesz egzamin ma obowiązek:",
+        "options": {
+            "a": "zawsze posiadać prawo jazdy kat. B,",
+            "b": "samodzielnego wykonywania wszystkich bieżących napraw maszyny/urządzenia,",
+            "c": "przestrzegać zapisów instrukcji obsługi i eksploatacji maszyny/urządzenia."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 61,
+        "question": "Osobą bezpośrednio odpowiedzialną za bezpieczną eksploatację maszyny, na którą zdajesz egzamin jest:",
+        "options": {
+            "a": "operator maszyny,",
+            "b": "kierownik budowy,",
+            "c": "właściciel maszyny."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 62,
+        "question": "Książkę operatora i uprawnienia na maszynę/urządzenie, na które zdajesz egzamin wydaje:",
+        "options": {
+            "a": "Urząd Dozoru Technicznego (UDT),",
+            "b": "Transportowy Dozór Techniczny (TDT),",
+            "c": "Sieć Badawcza Łukasiewicz - Warszawski Instytut Technologiczny."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 63,
+        "question": "Obowiązek stosowania środków ochrony indywidualnej:",
+        "options": {
+            "a": "nie ma zastosowania w upalne dni,",
+            "b": "wynika tylko z przepisów wewnątrzzakładowych,",
+            "c": "wynika z instrukcji obsługi i eksploatacji oraz przepisów BHP ."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 64,
+        "question": "Pracownik, który jest świadkiem wypadku w pracy:",
+        "options": {
+            "a": "wystarczy, że powiadomi przełożonego,",
+            "b": "ma obowiązek udzielić pomocy ofiarom, a następnie niezwłocznie oddalić się z miejsca wypadku,",
+            "c": "ma obowiązek udzielić pomocy ofiarom, powiadomić przełożonego oraz w razie potrzeby zabezpieczyć miejsce wypadku."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 65,
+        "question": "Jakie elementy maszyny, na którą zdajesz egzamin chronią operatora w przypadku przewrócenia się maszyny:",
+        "options": {
+            "a": "kabina maszyny typu ROPS oraz pasy bezpieczeństwa,",
+            "b": "fotel maszyny,",
+            "c": "hełm ochronny z atestem i kamizelka odblaskowa."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 66,
+        "question": "W przypadku utraty stateczności przez maszynę wyposażoną w kabinę typu ROPS operator powinien:",
+        "options": {
+            "a": "starać się jak najszybciej opuścić kabinę (przed przewróceniem się maszyny),",
+            "b": "szybko skręcić w lewo i podnieść jak najwyżej osprzęt roboczy,",
+            "c": "utrzymać pozycje siedzącą mocno trzymając się kierownicy lub innych stabilnych elementów w kabinie."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 67,
+        "question": "W przypadku utraty stateczności przez maszynę wyposażoną w kabinę typu ROPS operator powinien:",
+        "options": {
+            "a": "włączyć światła ostrzegawcze/awaryjne,",
+            "b": "pozostać w kabinie,",
+            "c": "niezwłocznie wyskoczyć z kabiny."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 68,
+        "question": "Strefę niebezpieczną definiujemy jako:",
+        "options": {
+            "a": "miejsce, w którym występują zagrożenia dla zdrowia i życia ludzi,",
+            "b": "miejsce, gdzie pracownicy muszą nosić jedynie hełmy ochronne,",
+            "c": "miejsce, gdzie odbywają się prace wymagające specjalistycznego sprzętu, a przebywanie w nim ludzi jest dozwolone tylko nocą."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 69,
+        "question": "Obszar, który operator powinien sprawdzić i zabezpieczyć przed rozpoczęciem pracy maszyną/urządzeniem (ponieważ występują tam zagrożenia dla zdrowia i życia ludzi) nazywamy:",
+        "options": {
+            "a": "strefą niebezpieczną,",
+            "b": "martwym polem,",
+            "c": "strefą podwyższonego ryzyka."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 70,
+        "question": "Sygnał ręczny przedstawiony na rysunku oznacza:",
+        "options": {
+            "a": "\"obrócić maszynę\",",
+            "b": "\"podnieść do góry\",",
+            "c": "\"opuścić do dołu\"."
+        },
+        "correct_answer": "b",
+        "image": "page_14_Image50.jpg"
+    },
+    {
+        "id": 71,
+        "question": "Sygnał ręczny przedstawiony na rysunku oznacza:",
+        "options": {
+            "a": "\"podnieść do góry\",",
+            "b": "\"opuścić do dołu\",",
+            "c": "\"obrócić maszynę\"."
+        },
+        "correct_answer": "b",
+        "image": "page_14_Image51.jpg"
+    },
+    {
+        "id": 72,
+        "question": "Sygnał ręczny przedstawiony na rysunku oznacza:",
+        "options": {
+            "a": "\"ruch we wskazanym kierunku\",",
+            "b": "\"podnieść do góry\",",
+            "c": "\"obrócić maszynę\"."
+        },
+        "correct_answer": "a",
+        "image": "page_14_Image52.jpg"
+    },
+    {
+        "id": 73,
+        "question": "Sygnał ręczny przedstawiony na rysunku oznacza:",
+        "options": {
+            "a": "\"podnieść do góry\",",
+            "b": "\"ruch we wskazanym kierunku\",",
+            "c": "\"obrócić maszynę\"."
+        },
+        "correct_answer": "b",
+        "image": "page_14_Image53.jpg"
+    },
+    {
+        "id": 74,
+        "question": "Sygnał ręczny przedstawiony na rysunku oznacza:",
+        "options": {
+            "a": "\"koniec działania\",",
+            "b": "\"stop\",",
+            "c": "\"odległość pozioma\"."
+        },
+        "correct_answer": "c",
+        "image": "page_14_Image54.jpg"
+    },
+    {
+        "id": 75,
+        "question": "Sygnał ręczny przedstawiony na rysunku oznacza:",
+        "options": {
+            "a": "\"ruch do przodu\",",
+            "b": "\"szybki ruch\",",
+            "c": "\"ruch do tyłu\"."
+        },
+        "correct_answer": "a",
+        "image": "page_14_Image55.jpg"
+    },
+    {
+        "id": 76,
+        "question": "Sygnał ręczny przedstawiony na rysunku oznacza:",
+        "options": {
+            "a": "\"ruch do tyłu\",",
+            "b": "\"ruch powolny\",",
+            "c": "\"ruch do przodu\"."
+        },
+        "correct_answer": "a",
+        "image": "page_15_Image58.jpg"
+    },
+    {
+        "id": 77,
+        "question": "Sygnał ręczny przedstawiony na rysunku oznacza:",
+        "options": {
+            "a": "\"stop\",",
+            "b": "\"odległość pionowa\",",
+            "c": "\"koniec działania\"."
+        },
+        "correct_answer": "b",
+        "image": "page_15_Image59.jpg"
+    },
+    {
+        "id": 78,
+        "question": "Sygnał ręczny przedstawiony na rysunku oznacza:",
+        "options": {
+            "a": "\"ruch do tyłu\",",
+            "b": "\"odległość pozioma\",",
+            "c": "\"STOP . Zatrzymanie w nagłym przypadku\"."
+        },
+        "correct_answer": "c",
+        "image": "page_15_Image60.jpg"
+    },
+    {
+        "id": 79,
+        "question": "Sygnał ręczny przedstawiony na rysunku oznacza:",
+        "options": {
+            "a": "\"ruch do tyłu\",",
+            "b": "\"START. Początek kierowania\",",
+            "c": "\"STOP . Zatrzymanie w nagłym przypadku\"."
+        },
+        "correct_answer": "b",
+        "image": "page_15_Image61.jpg"
+    },
+    {
+        "id": 80,
+        "question": "Sygnał ręczny przedstawiony na rysunku oznacza:",
+        "options": {
+            "a": "\"ruch do tyłu\",",
+            "b": "\"ZATRZYMAĆ. Przerwa - koniec ruchu\",",
+            "c": "\"STOP . Zatrzymanie w nagłym przypadku\"."
+        },
+        "correct_answer": "b",
+        "image": "page_15_Image62.jpg"
+    },
+    {
+        "id": 81,
+        "question": "Sygnał ręczny przedstawiony na rysunku oznacza:",
+        "options": {
+            "a": "\"opuścić do dołu\",",
+            "b": "\"KONIEC. Zatrzymanie działania\",",
+            "c": "\"odległość pozioma\"."
+        },
+        "correct_answer": "b",
+        "image": "page_15_Image63.jpg"
+    },
+    {
+        "id": 82,
+        "question": "Podczas ładowania akumulatorów dochodzi do wydzielania się gazu o właściwościach bardzo wybuchowych. Gazem tym jest:",
+        "options": {
+            "a": "etan,",
+            "b": "metan,",
+            "c": "wodór."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 83,
+        "question": "Pianą gaśniczą można gasić pożary grupy:",
+        "options": {
+            "a": "C i D,",
+            "b": "tylko C,",
+            "c": "A i B."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 84,
+        "question": "Nieumiejętne posługiwanie się gaśnicą śniegową może skutkować:",
+        "options": {
+            "a": "odmrożeniem spowodowanym środkiem gaśniczym,",
+            "b": "omdleniem,",
+            "c": "poparzeniem od elementów gaśnicy."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 85,
+        "question": "Woda, koc gaśniczy, gaśnica proszkowa, dwutlenek węgla, piasek to środki gaśnicze, których użyjemy do gaszenia:",
+        "options": {
+            "a": "olejów,",
+            "b": "ciał stałych,",
+            "c": "cieczy."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 86,
+        "question": "Sorbentami możemy nazwać:",
+        "options": {
+            "a": "substancje ropopochodne,",
+            "b": "koce gaśnicze,",
+            "c": "materiały wykonane z tworzyw naturalnych lub sztucznych absorbujące ciecze."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 87,
+        "question": "Grupa A pożarów dotyczy:",
+        "options": {
+            "a": "ciał stałych, których normalne spalanie zachodzi z tworzeniem żarzących się węgli, np. drewna, papieru, itp.,",
+            "b": "cieczy palnych,",
+            "c": "gazów palnych."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 88,
+        "question": "Grupa B pożarów dotyczy:",
+        "options": {
+            "a": "metali, np. magnez, sód, potas, glin, tytan itp.,",
+            "b": "gazów palnych,",
+            "c": "cieczy i materiałów stałych topiących się, np. tworzyw sztucznych, paliw, olejów, itp.."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 89,
+        "question": "Grupa C pożarów dotyczy:",
+        "options": {
+            "a": "cieczy palnych,",
+            "b": "gazów, np. metanu, propanu, acetylenu, wodoru,",
+            "c": "ciał stałych."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 90,
+        "question": "Widząc taki piktogram jesteś informowany o:",
+        "options": {
+            "a": "strefie zagrożonej,",
+            "b": "miejscu zbiórki podczas ewakuacji,",
+            "c": "większej liczbie ludzi w danym rejonie."
+        },
+        "correct_answer": "b",
+        "image": "page_17_Image68.jpg"
+    },
+    {
+        "id": 91,
+        "question": "Podczas pracy zauważyłeś znak z oznaczeniem „Strefa 0”. Informuje on o:",
+        "options": {
+            "a": "strefie występującej kategorii niebezpieczeństwa pożarowego,",
+            "b": "przestrzeni, w której występuje atmosfera wybuchowa,",
+            "c": "strefie występującego obciążenia ogniowego w budynku."
+        },
+        "correct_answer": "b",
+        "image": "page_17_Image69.jpg"
+    },
+    {
+        "id": 92,
+        "question": "Przedstawiony piktogram informuje o:",
+        "options": {
+            "a": "zestawie sprzętu ochrony przeciwpożarowej,",
+            "b": "głównym wyłączniku prądu,",
+            "c": "hydrancie wewnętrznym."
+        },
+        "correct_answer": "a",
+        "image": "page_17_Image70.jpg"
+    },
+    {
+        "id": 93,
+        "question": "Widząc taki piktogram jesteś informowany o:",
+        "options": {
+            "a": "wyjściu ewakuacyjnym,",
+            "b": "miejscu zbiórki podczas ewakuacji,",
+            "c": "miejscu pierwszej pomocy medycznej."
+        },
+        "correct_answer": "a",
+        "image": "page_17_Image71.jpg"
+    },
+    {
+        "id": 94,
+        "question": "Widząc taki piktogram jesteś informowany o:",
+        "options": {
+            "a": "umiejscowieniu gaśnicy,",
+            "b": "zakazie używania gaśnicy,",
+            "c": "wysokiej temperaturze mającej wpływ na gaśnicę."
+        },
+        "correct_answer": "a",
+        "image": "page_18_Image74.jpg"
+    },
+    {
+        "id": 95,
+        "question": "Widzisz człowieka, na którym pali się odzież oraz który w wyniku paniki ucieka. Twoja reakcja to:",
+        "options": {
+            "a": "silnie machasz obok niego rękami lub okryciem wierzchnim, aby ugasić palącą się odzież,",
+            "b": "każesz mu, aby oczekiwał w pozycji pionowej na przybycie służb ratowniczych,",
+            "c": "starasz się go zatrzymać, położyć na podłożu i rozpocząć gaszenie."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 96,
+        "question": "Urządzenia i instalacje elektryczne można gasić za pomocą:",
+        "options": {
+            "a": "gaśnic proszkowych lub śniegowych,",
+            "b": "gaśnic pianowych,",
+            "c": "wody."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 97,
+        "question": "Płonące paliwo można gasić za pomocą:",
+        "options": {
+            "a": "wody,",
+            "b": "gaśnic proszkowych, pianowych lub śniegowych,",
+            "c": "etyliny niskooktanowej."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 98,
+        "question": "Płonącą na osobie odzież można gasić za pomocą:",
+        "options": {
+            "a": "gaśnicy śniegowej lub proszkowej,",
+            "b": "materiału z tworzyw sztucznych,",
+            "c": "gaśnicy wodnej mgłowej lub koca gaśniczego."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 99,
+        "question": "Jakie obowiązki ma pracownik, gdy zdecyduje się powstrzymać od wykonywania pracy ze względu na przepisy BHP?",
+        "options": {
+            "a": "Musi niezwłocznie zawiadomić przełożonego,",
+            "b": "Nie ma żadnych obowiązków w tej sytuacji,",
+            "c": "Powinien zorganizować pracę dla innych."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 100,
+        "question": "W jaki sposób operator może zapobiegać zagrożeniom w miejscu pracy?",
+        "options": {
+            "a": "Nie zgłaszając usterek w maszynach,",
+            "b": "Stosując środki ochrony indywidualnej w celu minimalizacji ryzyka,",
+            "c": "Ignorując zasady BHP ."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 101,
+        "question": "Która z poniższych sytuacji jest zabroniona podczas pracy maszyną?",
+        "options": {
+            "a": "Praca w pobliżu maszyn z odpowiednim oznakowaniem,",
+            "b": "Przenoszenie ładunków nad osobami,",
+            "c": "Zgłaszanie usterek maszyn w regularnych odstępach czasowych."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 102,
+        "question": "Nie jest dopuszczalne usytuowanie stanowiska pracy bezpośrednio pod czynnymi napowietrznymi liniami elektroenergetycznymi lub w odległości liczonej w poziomie od skrajnych przewodów, mniejszej niż:",
+        "options": {
+            "a": "dla linii: 1 [kV] - 1 [m], 15 [kV] - 3 [m], 30 [kV] - 5 [m], 110 [kV] - 10 [m],",
+            "b": "dla wszystkich napięć - 1 [m] od linii zasilającej,",
+            "c": "dla linii: 1 [kV] - 3 [m], 15 [kV] - 5 [m], 30 [kV] - 10 [m], 110 [kV] - 15 [m], 400 [kV] - 30 [m]."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 103,
+        "question": "Skąd operator wie, jakie środki ochrony indywidualnej są wymagane dla danej maszyny/urządzenia?",
+        "options": {
+            "a": "Wybór środka ochrony indywidualnej zależy od opinii kolegów z pracy,",
+            "b": "Operator musi samodzielnie wybrać odpowiednie środki ochrony,",
+            "c": "Informacja o niezbędnych środkach ochrony indywidualnej jest zawarta w instrukcji obsługi i eksploatacji maszyny."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 104,
+        "question": "Operator powinien odmówić wykonania zadania, gdy:",
+        "options": {
+            "a": "praca jest wykonywana w porze nocnej,",
+            "b": "praca wymaga zapoznania się z usytuowaniem mediów podziemnych i naziemnych,",
+            "c": "praca jest niezgodna z przeznaczeniem maszyny/urządzenia."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 105,
+        "question": "Operator może zapobiegać zagrożeniom podczas obsługi maszyny/urządzenia przez:",
+        "options": {
+            "a": "ograniczenie użycia środków ochrony indywidualnej,",
+            "b": "przestrzeganie zasad BHP i stosowanie się do instrukcji obsługi,",
+            "c": "nieuwagę i rutynę."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 106,
+        "question": "Która z wymienionych sytuacji jest niedopuszczalna podczas użytkowania maszyny/urządzenia?",
+        "options": {
+            "a": "Przebywanie osób nieupoważnionych w strefie zagrożenia spowodowanej pracą maszyny/urządzenia,",
+            "b": "Zgłaszanie usterek bezpośrednio do przełożonego,",
+            "c": "Praca maszyną bez nadzoru."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 107,
+        "question": "Za wypadek przy pracy uważa się:",
+        "options": {
+            "a": "zdarzenie nagłe, niezwiązane z wykonywaną pracą, wywołane przyczyną zewnętrzną, powodujące uraz lub śmierć,",
+            "b": "zdarzenie długotrwałe, związane z wykonywaną pracą, wywołane przyczyną wewnętrzną, powodujące uszkodzenie sprzętu,",
+            "c": "zdarzenie nagłe, związane z wykonywaną pracą, wywołane przyczyną zewnętrzną, powodujące uraz lub śmierć."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 108,
+        "question": "Za śmiertelny wypadek przy pracy uważa się wypadek, w wyniku którego śmierć nastąpiła:",
+        "options": {
+            "a": "w okresie nieprzekraczającym 6 miesięcy od dnia wypadku,",
+            "b": "w okresie powyżej 6 miesięcy od dnia wypadku,",
+            "c": "tylko w chwili wypadku."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 109,
+        "question": "Zabronione jest:",
+        "options": {
+            "a": "podejmowanie pracy maszyną po ukończonym szkoleniu i nabyciu odpowiednich uprawnień,",
+            "b": "przebywanie osób nieupoważnionych w zasięgu pracy maszyny oraz praca na pochyłościach przekraczających dopuszczalne nachylenie,",
+            "c": "zgłaszanie zauważonych usterek do przełożonego przed rozpoczęciem pracy."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 110,
+        "question": "Podczas wchodzenia i schodzenia z maszyny zabronione jest:",
+        "options": {
+            "a": "zwracanie się twarzą do maszyny podczas wchodzenia i schodzenia,",
+            "b": "używanie dźwigni sterującej jako wsparcia,",
+            "c": "intensywne korzystanie z poręczy i stopni."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 111,
+        "question": "Przepisy BHP nakazują:",
+        "options": {
+            "a": "zabezpieczenie maszyny roboczej w czasie przerw w jej pracy przed przypadkowym uruchomieniem przez osoby nieuprawnione,",
+            "b": "wykonanie przeglądu gwarancyjnego maszyny roboczej przed upływem roku od jej zakupu,",
+            "c": "zezłomowanie starej maszyny roboczej w terminie określonym w jej instrukcji obsługi i eksploatacji, z zachowaniem wymogów dotyczących utylizacji materiałów niebezpiecznych."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 112,
+        "question": "W przypadku porażenia człowieka prądem elektrycznym:",
+        "options": {
+            "a": "nie wolno dotykać poszkodowanego dopóki nie zostanie odłączone źródło prądu,",
+            "b": "zaleca się użyć jakichkolwiek narzędzi do odłączenia prądu, niezależnie od ich faktycznego przeznaczenia,",
+            "c": "należy natychmiast przystąpić do resuscytacji, niezależnie od tego, czy źródło prądu zostało odłączone."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 113,
+        "question": "W przypadku zasypania człowieka ziemią lub piaskiem:",
+        "options": {
+            "a": "zawsze czekamy spokojnie na służby ratownicze - jakakolwiek próba pomocy byłaby zbyt niebezpieczna,",
+            "b": "należy jak najszybciej go odkopać nie zważając na własne bezpieczeństwo - chodzi o jego życie,",
+            "c": "należy jak najszybciej go odkopać, o ile jest to bezpieczne dla osoby podejmującej działanie ratownicze."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 114,
+        "question": "Widząc osobę, na której płonie ubranie należy w pierwszej kolejności:",
+        "options": {
+            "a": "użyć gaśnicy, najlepiej śniegowej, do gaszenia płonącej odzieży, a następnie spróbować szybko zerwać wtopioną odzież,",
+            "b": "odciąć dopływ powietrza turlając poszkodowanego lub owijając go kocem gaśniczym, mokrą odzieżą lub mokrym kocem,",
+            "c": "pozostawić poszkodowanego w pozycji stojącej, aby ułatwić dostęp powietrza i szybciej ugasić płomienie."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 115,
+        "question": "Jeżeli podczas wykonywania robót ziemnych zostaną odkryte przedmioty trudne do identyfikacji, to:",
+        "options": {
+            "a": "należy wyznaczyć strefę niebezpieczną o promieniu 6 [m], poza którą można już normalnie pracować,",
+            "b": "można kontynuować roboty ziemne, jeśli zachowamy odległość co najmniej 1 [m] od takiego przedmiotu,",
+            "c": "przerywa się dalszą pracę i zawiadamia się osobę nadzorującą roboty ziemne."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 116,
+        "question": "W przypadku znalezienia niewybuchu podczas robót ziemnych należy:",
+        "options": {
+            "a": "zignorować niewybuch, jeśli nie stanowi bezpośredniego zagrożenia,",
+            "b": "spróbować ostrożnie usunąć niewybuch z miejsca pracy i kontynuować pracę,",
+            "c": "przerwać pracę, usunąć innych pracowników z miejsca zagrożenia, powiadomić przełożonych oraz zabezpieczyć miejsce."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 117,
+        "question": "Klin odłamu gruntu:",
+        "options": {
+            "a": "jest to obszar wokół maszyny roboczej sięgający na odległość 6 [m] poza jej najdalszy zasięg,",
+            "b": "powstaje tylko wtedy, gdy grunt jest w stanie zamrożonym,",
+            "c": "powstaje, gdy nachylenie skarpy przekracza kąt stoku naturalnego gruntu."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 118,
+        "question": "Zasięg klina odłamu gruntu:",
+        "options": {
+            "a": "zależy od głębokości wykopu oraz kategorii gruntu,",
+            "b": "zależy wyłącznie od temperatury gruntu,",
+            "c": "zależy od prędkości działania maszyny i sprawności operatora ."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 119,
+        "question": "Kąt stoku naturalnego jest to:",
+        "options": {
+            "a": "maksymalne nachylenie, pod jakim grunt może się utrzymywać bez osuwania - zależy on m.in. od kategorii gruntu,",
+            "b": "kąt, pod jakim grunt na pewno osunie się samoczynnie - zależy wyłącznie od temperatury tego gruntu,",
+            "c": "kąt, pod jakim można bezpiecznie obsługiwać maszynę - zależy on od parametrów danej maszyny."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 120,
+        "question": "Klin odłamu gruntu:",
+        "options": {
+            "a": "to strefa, w której grunt staje się niestabilny - jego zasięg zależny wyłącznie od głębokości wykopu, rodzaj gruntu nie ma tu znaczenia,",
+            "b": "powstaje, gdy nachylenie skarpy przekracza kąt stoku naturalnego gruntu - jego zasięg zależy od rodzaju gruntu i głębokości wykopu lub wysokości skarpy,",
+            "c": "to przestrzeń wokół maszyny, zależna od prędkości pracy maszyny i jej masy."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 121,
+        "question": "Kąt stoku naturalnego jest to:",
+        "options": {
+            "a": "kąt, przy którym maszyna może bezpiecznie poruszać się na nasypie, niezależnie od kategorii gruntu,",
+            "b": "nachylenie, przy którym każda skarpa staje się niestabilna, niezależnie od rodzaju gruntu,",
+            "c": "maksymalne nachylenie, pod jakim grunt może się utrzymywać bez osuwania - zależy on od rodzaju gruntu, np. wilgotności, spoistości i uziarnienia."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 122,
+        "question": "Resuscytację krążeniowo-oddechową (RKO) wykonujemy:",
+        "options": {
+            "a": "gdy poszkodowany oddycha, ale jest nieprzytomny, nie ma z nim kontaktu,",
+            "b": "gdy poszkodowany nie oddycha i nie ma wyczuwalnego tętna. Dla osoby niebędącej profesjonalnym ratownikiem brak oddechu jest wystarczającą podstawą do rozpoczęcia resuscytacji,",
+            "c": "tylko w przypadku omdleń i drobnych obrażeń, aby usprawnić krążenie krwi."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 123,
+        "question": "Pracownik ma prawo powstrzymać się od wykonywania pracy ze względu na przepisy BHP, zawiadamiając o tym niezwłocznie przełożonego w razie, gdy:",
+        "options": {
+            "a": "warunki pracy stwarzają bezpośrednie zagrożenie dla zdrowia lub życia,",
+            "b": "warunki pracy nie stwarzają zagrożenia, ale są dla niego zbyt trudne,",
+            "c": "wykonywana przez niego praca nie została zgłoszona do nadzoru budowlanego."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 124,
+        "question": "Czynnikami fizycznymi generującymi zagrożenia w miejscu pracy są:",
+        "options": {
+            "a": "rozlane smary, oleje i paliwa,",
+            "b": "brak odpowiednich badań lekarskich pracownika,",
+            "c": "brak lub niewłaściwe szkolenia pracowników."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 125,
+        "question": "Praca maszyną roboczą/urządzeniem jest niedopuszczalna, gdy:",
+        "options": {
+            "a": "jest niesprawna,",
+            "b": "jej naprawa została przeprowadzona po zmroku,",
+            "c": "drugi operator nie zgłosił zbliżającego się przeglądu."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 126,
+        "question": "Praca w pobliżu napowietrznych linii zasilających:",
+        "options": {
+            "a": "zawsze wymaga wyłączenia zasilania w linii,",
+            "b": "zawsze wymaga podwójnego uziemienia linii,",
+            "c": "jest możliwa bez spełniania dodatkowych wymogów pod warunkiem zachowania określonych odległości zależnych od napięcia znamionowego linii."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 127,
+        "question": "Operator ma obowiązek odmówić podjęcia pracy, jeśli:",
+        "options": {
+            "a": "maszyna robocza jest niesprawna,",
+            "b": "na miejscu wykonywania pracy nie ma kierownika budowy, ani żadnej innej osoby upoważnionej do nadzoru,",
+            "c": "miałby pracować pod liniami energetycznymi, a napięcie w nich zostało wyłączone i linia uziemiona."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 128,
+        "question": "Strefa niebezpieczna od maszyny/urządzenia to:",
+        "options": {
+            "a": "zawsze cały ogrodzony teren budowy,",
+            "b": "miejsce, w którym maszyna/urządzenie nie mogą być używane,",
+            "c": "miejsce, w którym występują zagrożenia dla zdrowia lub życia ludzi."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 129,
+        "question": "Ze złego stanu technicznego maszyny roboczej mogą wynikać wypadki przy pracy polegające na przykład na:",
+        "options": {
+            "a": "urazie kończyny, tułowia lub głowy,",
+            "b": "uszkodzeniu osprzętu,",
+            "c": "awarii układu napędowego."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 130,
+        "question": "Zachowaniami niedopuszczalnymi są:",
+        "options": {
+            "a": "praca po zapadnięciu zmroku w dobrze oświetlonym miejscu, przy pełnej koncentracji operatora,",
+            "b": "praca maszyną niesprawną oraz praca pod wpływem alkoholu,",
+            "c": "wykonywanie obsługi codziennej maszyny po zmroku."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 131,
+        "question": "Ogólne zasady bezpiecznego wchodzenia i schodzenia z maszyny to:",
+        "options": {
+            "a": "osoba powinna być zwrócona twarzą do maszyny, pamiętać o zasadzie \"trzypunktowego podparcia\" i używać tylko specjalnie wykonanych stopni i poręczy,",
+            "b": "można schodzić tyłem do maszyny, ale tylko wtedy, gdy stopnie są śliskie,",
+            "c": "używanie przewodów i dźwigni jako pomocy przy wchodzeniu jest dopuszczalne przy zgaszonej maszynie."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 132,
+        "question": "Podstawowe obowiązki pracownika w zakresie BHP to:",
+        "options": {
+            "a": "przestrzeganie przepisów i zasad BHP, dbanie o stan maszyn i narzędzi oraz porządek w miejscu pracy, stosowanie środków ochrony indywidualnej,",
+            "b": "egzekwowanie przepisów kodeksu pracy dotyczących swoich praw, w tym zapłaty za wypracowane nadgodziny,",
+            "c": "nie spóźnianie się do pracy, terminowe jej kończenie, potwierdzanie obecności w pracy w sposób przyjęty u danego pracodawcy."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 133,
+        "question": "W przypadku osoby porażonej prądem elektrycznym, po odłączeniu źródła prądu, należy:",
+        "options": {
+            "a": "sprawdzić stan poszkodowanego, a w razie potrzeby: wezwać pomoc, udrożnić drogi oddechowe, podjąć resuscytację i użyć AED, jeśli jest dostępny,",
+            "b": "jak najszybciej przenieść poszkodowanego w inne miejsce,",
+            "c": "zostawić poszkodowanego, jeśli odzyskał przytomność, bez dalszych działań."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 134,
+        "question": "Gdy osoba zasypana ziemią lub piaskiem zostanie częściowo odkopana należy:",
+        "options": {
+            "a": "jak najszybciej udrożnić drogi oddechowe,",
+            "b": "jak najszybciej odkopać lewą rękę, aby sprawdzić puls,",
+            "c": "skupić się na odkopaniu dolnych partii ciała poszkodowanego."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 135,
+        "question": "Po ugaszeniu płomieni na osobie z oparzeniami i wezwaniu pomocy należy:",
+        "options": {
+            "a": "schładzać oparzone miejsca zimną wodą przez 10-20 minut, wcześniej zrywając wtopioną odzież,",
+            "b": "użyć gaśnicy śniegowej do schłodzenia miejsca oparzeń,",
+            "c": "schładzać oparzone miejsca zimną wodą przez 10-20 minut, nie zrywając wtopionej odzieży."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 136,
+        "question": "Stwierdzenie: \"Uprawnienia operatora maszyny, na którą zdajesz egzamin są wystarczające, aby móc poruszać się taką maszyną po drogach publicznych\" jest:",
+        "options": {
+            "a": "prawdziwe, ale tylko w warunkach normalnej przejrzystości powietrza,",
+            "b": "fałszywe,",
+            "c": "prawdziwe."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 137,
+        "question": "Widząc taki piktogram jesteś informowany o:",
+        "options": {
+            "a": "miejscu, gdzie dostępny jest automatyczny defibrylator zewnętrzny,",
+            "b": "miejscu, gdzie dostępna jest apteczka,",
+            "c": "miejscu do wykonywania AED."
+        },
+        "correct_answer": "a",
+        "image": "page_26_Image91.jpg"
+    },
+    {
+        "id": 138,
+        "question": "Prawidłowo wykonana resuscytacja krążeniowo-oddechowa (RKO) polega na:",
+        "options": {
+            "a": "podłączeniu automatycznego defibrylatora zewnętrznego (AED) i wykonywaniu jego poleceń; bez AED nie prowadzi się RKO,",
+            "b": "udrożnieniu dróg oddechowych, następnie uciskaniu klatki piersiowej w tempie 30-60 razy na minutę na głębokość 1–3 [cm] i wykonaniu 2 wdechów ratowniczych po każdych 15 uciśnięciach (wdechy są obowiązkowe),",
+            "c": "udrożnieniu dróg oddechowych, następnie uciskaniu klatki piersiowej w tempie 100-120 razy na minutę na głębokość 5–6 [cm] i wykonaniu 2 wdechów ratowniczych po każdych 30 uciśnięciach (wdechy nie są obowiązkowe)."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 139,
+        "question": "Urobku nie wolno składować w strefie klina naturalnego odłamu gruntu:",
+        "options": {
+            "a": "zawsze, gdy grunt jest piaszczysty,",
+            "b": "gdy wykop jest głębszy niż 1,5 [m] niezależnie od jego zabezpieczenia,",
+            "c": "gdy ściany wykopu są nieobudowane."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 140,
+        "question": "Skrót IBWR oznacza:",
+        "options": {
+            "a": "Instruktaż Bezawaryjnego Wykonywania Robót,",
+            "b": "Instrukcja Bezpiecznego Wykonywania Robót,",
+            "c": "Instrukcja Bezawaryjnego Wykonywania Robót."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 141,
+        "question": "Rozwiń skrót IBWR:",
+        "options": {
+            "a": "Informacja o Bezpiecznym Wykonywaniu Robót,",
+            "b": "Implementacja Bezawaryjnego Wykonywania Robót,",
+            "c": "Instrukcja Bezpiecznego Wykonywania Robót."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 142,
+        "question": "Plan BIOZ oznacza:",
+        "options": {
+            "a": "plan Bezpiecznej Instrukcji Ochrony Zdrowia,",
+            "b": "plan Bezpieczeństwa i Określenia Zasobów,",
+            "c": "plan Bezpieczeństwa i Ochrony Zdrowia."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 143,
+        "question": "Podczas jazdy maszyną do robót ziemnych po drodze publicznej operator musi:",
+        "options": {
+            "a": "posiadać prawo jazdy właściwej kategorii, uprawnienia operatora na daną maszynę, ubezpieczenie OC,",
+            "b": "posiadać tylko uprawnienia na daną maszynę do robót ziemnych, nie ma żadnych dodatkowych wymagań,",
+            "c": "mieć ukończone 20 lat i posiadać uprawnienia operatora na daną maszynę do robót ziemnych."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 144,
+        "question": "Zasięg klina odłamu dla wykopu o głębokości h = 2 [m] dla gruntów kategorii IV (spoistych) wynosi:",
+        "options": {
+            "a": "1,6 [m],",
+            "b": "4 [m],",
+            "c": "1 [m]."
+        },
+        "correct_answer": "c",
+        "image": "page_27_Image94.jpg"
+    },
+    {
+        "id": 145,
+        "question": "Zasięg klina odłamu dla wykopu o głębokości h = 3 [m] dla gruntów kategorii IV (spoistych) wynosi:",
+        "options": {
+            "a": "1 [m],",
+            "b": "1,6 [m],",
+            "c": "1,5 [m]."
+        },
+        "correct_answer": "c",
+        "image": "page_27_Image94.jpg"
+    },
+    {
+        "id": 146,
+        "question": "Zasięg klina odłamu dla wykopu o głębokości h = 1 [m] dla gruntów kategorii IV (spoistych) wynosi:",
+        "options": {
+            "a": "1 [m],",
+            "b": "0,5 [m],",
+            "c": "1,6 [m]."
+        },
+        "correct_answer": "b",
+        "image": "page_27_Image94.jpg"
+    },
+    {
+        "id": 147,
+        "question": "Zasięg klina odłamu dla wykopu o głębokości h = 1 [m] dla gruntów kategorii III (spękane skały) wynosi:",
+        "options": {
+            "a": "2 [m],",
+            "b": "1,6 [m],",
+            "c": "1 [m]."
+        },
+        "correct_answer": "c",
+        "image": "page_27_Image94.jpg"
+    },
+    {
+        "id": 148,
+        "question": "Zasięg klina odłamu dla wykopu o głębokości h = 2 [m] dla gruntów kategorii III (spękane skały) wynosi:",
+        "options": {
+            "a": "2 [m],",
+            "b": "1,6 [m],",
+            "c": "1 [m]."
+        },
+        "correct_answer": "a",
+        "image": "page_28_Image94.jpg"
+    },
+    {
+        "id": 149,
+        "question": "Zasięg klina odłamu dla wykopu o głębokości h = 3 [m] dla gruntów kategorii III (spękane skały) wynosi:",
+        "options": {
+            "a": "1 [m],",
+            "b": "2 [m],",
+            "c": "3 [m]."
+        },
+        "correct_answer": "c",
+        "image": "page_28_Image94.jpg"
+    },
+    {
+        "id": 150,
+        "question": "Zasięg klina odłamu dla wykopu o głębokości h = 4 [m] dla gruntów kategorii III (spękane skały) wynosi:",
+        "options": {
+            "a": "2,6 [m],",
+            "b": "3 [m],",
+            "c": "4 [m]."
+        },
+        "correct_answer": "c",
+        "image": "page_28_Image94.jpg"
+    },
+    {
+        "id": 151,
+        "question": "Bezpieczna odległość, jaką musi zachować maszyna dla wykopu o głębokości h = 2 [m] dla gruntów kategorii IV (spoistych) wynosi:",
+        "options": {
+            "a": "2,6 [m],",
+            "b": "1 [m],",
+            "c": "1,6 [m]."
+        },
+        "correct_answer": "c",
+        "image": "page_28_Image94.jpg"
+    },
+    {
+        "id": 152,
+        "question": "Bezpieczna odległość, jaką musi zachować maszyna dla wykopu o głębokości h = 3 [m] dla gruntów kategorii IV (spoistych) wynosi:",
+        "options": {
+            "a": "6,6 [m],",
+            "b": "3,6 [m],",
+            "c": "2,1 [m]."
+        },
+        "correct_answer": "c",
+        "image": "page_28_Image94.jpg"
+    },
+    {
+        "id": 153,
+        "question": "Bezpieczna odległość, jaką musi zachować maszyna dla wykopu o głębokości h = 4 [m] dla gruntów kategorii IV (spoistych) wynosi:",
+        "options": {
+            "a": "2 [m],",
+            "b": "2,6 [m],",
+            "c": "4,6 [m]."
+        },
+        "correct_answer": "b",
+        "image": "page_28_Image94.jpg"
+    },
+    {
+        "id": 154,
+        "question": "Bezpieczna odległość, jaką musi zachować maszyna dla wykopu o głębokości h = 1 [m] dla gruntów kategorii IV (spoistych) wynosi:",
+        "options": {
+            "a": "2 [m],",
+            "b": "2,6 [m],",
+            "c": "1,1 [m]."
+        },
+        "correct_answer": "c",
+        "image": "page_29_Image94.jpg"
+    },
+    {
+        "id": 155,
+        "question": "Bezpieczna odległość, jaką musi zachować maszyna dla wykopu o głębokości h = 1 [m] dla gruntów kategorii III (spękane skały) wynosi:",
+        "options": {
+            "a": "2 [m],",
+            "b": "1,6 [m],",
+            "c": "2,6 [m]."
+        },
+        "correct_answer": "b",
+        "image": "page_29_Image94.jpg"
+    },
+    {
+        "id": 156,
+        "question": "Bezpieczna odległość, jaką musi zachować maszyna dla wykopu o głębokości h = 2 [m] dla gruntów kategorii III (spękane skały) wynosi:",
+        "options": {
+            "a": "2 [m],",
+            "b": "2,6 [m],",
+            "c": "4,6 [m]."
+        },
+        "correct_answer": "b",
+        "image": "page_29_Image94.jpg"
+    },
+    {
+        "id": 157,
+        "question": "Bezpieczna odległość, jaką musi zachować maszyna dla wykopu o głębokości h = 3 [m] dla gruntów kategorii III (spękane skały) wynosi:",
+        "options": {
+            "a": "3,6 [m],",
+            "b": "2,1 [m],",
+            "c": "3 [m]."
+        },
+        "correct_answer": "a",
+        "image": "page_29_Image94.jpg"
+    },
+    {
+        "id": 158,
+        "question": "Bezpieczna odległość, jaką musi zachować maszyna dla wykopu o głębokości h = 4 [m] dla gruntów kategorii III (spękane skały) wynosi:",
+        "options": {
+            "a": "4 [m],",
+            "b": "2,6 [m],",
+            "c": "4,6 [m]."
+        },
+        "correct_answer": "c",
+        "image": "page_29_Image94.jpg"
+    },
+    {
+        "id": 159,
+        "question": "Urządzenia bezpieczeństwa ruchu drogowego stosowane przy robotach prowadzonych w pasie drogowym mogą mieć kolor:",
+        "options": {
+            "a": "biały, zielony, niebieski,",
+            "b": "czerwony, żółto-czerwony, niebieski,",
+            "c": "biały, czerwony, żółty i czarny."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 160,
+        "question": "Urządzenia bezpieczeństwa ruchu drogowego użyte do zabezpieczenia i oznakowania miejsca wykonywania robót w pasie drogowym powinny być widoczne:",
+        "options": {
+            "a": "w dzień i w nocy,",
+            "b": "tylko w dzień ,",
+            "c": "tylko w nocy."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 161,
+        "question": "W sytuacji zagrożenia, gdy nie można otworzyć drzwi kabiny:",
+        "options": {
+            "a": "nie wolno opuszczać kabiny, aż do przybycia pomocy,",
+            "b": "należy wykorzystać wyjście ewakuacyjne/awaryjne przewidziane przez producenta,",
+            "c": "jako wyjście ewakuacyjne można wykorzystać przestrzeń po usunięciu panelu podłogowego."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 162,
+        "question": "W przypadku uszkodzenia mechanicznego kabiny FOPS/ROPS (np. wgniecenie elementu kabiny) operator:",
+        "options": {
+            "a": "może naprawić uszkodzenie we własnym zakresie nie tracąc czasu na przestoje,",
+            "b": "może pracować dalej, jeżeli szyby kabiny są całe,",
+            "c": "powinien przerwać pracę i zgłosić awarię przełożonemu lub osobie odpowiedzialnej w firmie za maszyny."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 163,
+        "question": "W przypadku uszkodzenia mechanicznego kabiny FOPS/ROPS (np. wgniecenie elementu kabiny) operator:",
+        "options": {
+            "a": "może naprawić takie uszkodzenie we własnym zakresie, ale tylko na podstawie instrukcji obsługi i eksploatacji maszyny,",
+            "b": "nie może naprawić takiego uszkodzenie we własnym zakresie,",
+            "c": "zawsze może naprawić takie uszkodzenie we własnym zakresie."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 164,
+        "question": "Jeżeli pas bezpieczeństwa jest uszkodzony należy:",
+        "options": {
+            "a": "zachować szczególną ostrożność wykonując pracę,",
+            "b": "kontynuować pracę i zgłosić problem po zakończeniu pracy,",
+            "c": "zgłosić uszkodzenie i nie rozpoczynać pracy dopóki pas nie zostanie naprawiony lub wymieniony."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 165,
+        "question": "Operator podczas pracy maszyną musi używać hełmu ochronnego w sytuacji, gdy:",
+        "options": {
+            "a": "podczas pracy często wychyla się z kabiny,",
+            "b": "pracuje przy robotach rozbiórkowych z użyciem długich wysięgników,",
+            "c": "pracuje w maszynie niewyposażonej w zamkniętą kabinę."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 166,
+        "question": "Wchodzić i wychodzić z maszyny należy:",
+        "options": {
+            "a": "twarzą do maszyny, zachowując trzy punkty kontaktu,",
+            "b": "wchodzić bokiem uważając na przyrządy w kabinie,",
+            "c": "tyłem do maszyny, używając trzystopniowej drabinki."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 167,
+        "question": "Czynnościami zabronionymi podczas eksploatacji i obsługi maszyny lub urządzenia są:",
+        "options": {
+            "a": "użytkowanie maszyn z urządzeniami zabezpieczającymi lub sygnalizacyjnymi,",
+            "b": "operowanie maszynami przez osoby nieposiadające stosownych kwalifikacji,",
+            "c": "używanie maszyn na gruntach skalistych w czasie ulewnego deszczu."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 168,
+        "question": "Miejsce wykonywania robót ziemnych przed ich rozpoczęciem powinno być:",
+        "options": {
+            "a": "dodatkowo dogęszczone,",
+            "b": "wytyczone i oznakowane,",
+            "c": "ogrodzone w sposób trwały."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 169,
+        "question": "W przypadku robót ziemnych postępujących, wyznaczenie strefy niebezpiecznej polega na:",
+        "options": {
+            "a": "prowadzeniu robót punktowo zachowując strefę 6 [m],",
+            "b": "zabezpieczeniu i oznakowaniu strefy 6 [m] od maszyny,",
+            "c": "zabezpieczeniu i oznakowaniu całego obszaru robót."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 170,
+        "question": "Widoczne urządzenia infrastruktury podziemnej dające wstępne rozeznanie o ich przebiegu, to najczęściej:",
+        "options": {
+            "a": "opuszczone obramowania jezdni w miejscu ich przechodzenia,",
+            "b": "symbole graficzne naniesione na nawierzchni dróg,",
+            "c": "skrzynki hydrantowe, skrzynki zasuw wodnych, włazy kanałowe."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 171,
+        "question": "Operator może pracować, bez potrzeby wcześniejszego spulchnienia, w gruncie:",
+        "options": {
+            "a": "kategorii V-VIII,",
+            "b": "wszystkich kategorii powyżej IV,",
+            "c": "kategorii I."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 172,
+        "question": "Minimalna odległość od krawędzi wykopu z obudowanymi ścianami, w jakiej można składować urobek to:",
+        "options": {
+            "a": "bezpośrednio przy krawędzi wykopu, jeśli grunt jest suchy,",
+            "b": "0,6 [m] od krawędzi wykopu, jeśli obciążenie urobku zostało uwzględnione w doborze obudowy,",
+            "c": "0,3 [m] od krawędzi wykopu, bez dodatkowych warunków."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 173,
+        "question": "Przykładem prac zaliczanych do robót przygotowawczych przed rozpoczęciem prac ziemnych mogą być:",
+        "options": {
+            "a": "obsługa codzienna maszyn i urządzeń budowlanych,",
+            "b": "zakup i składowanie materiałów oraz narzędzi niezbędnych do robót,",
+            "c": "przygotowanie terenu przez usunięcie przeszkód, wykonanie przekopów kontrolnych oraz wytyczenie budowli."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 174,
+        "question": "Humus to:",
+        "options": {
+            "a": "minerał wykorzystywany do stabilizacji podłoża,",
+            "b": "zewnętrzna warstwa gruntu bogata w próchnicę,",
+            "c": "głębsza warstwa ziemi, której grubość sięga zwykle do 1 [m]."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 175,
+        "question": "Podstawowymi metodami odwodnienia wykopów są:",
+        "options": {
+            "a": "wydobycie wody poprzez przepompowanie, osuszanie ręczne,",
+            "b": "odwodnienie powierzchniowe, odwodnienie wgłębne, drenaż opasowy,",
+            "c": "odwodnienie mechaniczne, odwodnienie naturalne, odwodnienie powierzchniowe."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 176,
+        "question": "Realizując cykl rozładunku operator powinien rozpocząć podnoszenie osprzętu ładowarkowego:",
+        "options": {
+            "a": "bezpośrednio po rozpoczęciu jazdy do miejsca rozładunku, aby zmniejszyć opory toczenia,",
+            "b": "przed wykonaniem ostatniego ostrego skrętu maszyną,",
+            "c": "podczas zbliżania się do środka transportu lub hałdy."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 177,
+        "question": "Podczas prac związanych z wykopami szerokoprzestrzennymi ładowarka jest szczególnie przydatna przy:",
+        "options": {
+            "a": "kopaniu rowów o szerokości mniejszej niż 1,5 [m],",
+            "b": "usuwaniu roślinności i korzeni na obszarze wykopu,",
+            "c": "odsuwaniu urobku, przewożeniu go na środek transportu oraz wyrównywaniu dna wykopu."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 178,
+        "question": "Podczas jazdy w warunkach terenowych pusta łyżka ładowarki jednonaczyniowej:",
+        "options": {
+            "a": "powinna być całkowicie opuszczona na ziemię i pchana przed maszyną,",
+            "b": "powinna być otwarta i opuszczona tuż nad ziemią,",
+            "c": "powinna być zamknięta i uniesiona na wysokość około 0,5 [m]."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 179,
+        "question": "Grunty, według stopnia trudności ich odspajania, dzielimy na:",
+        "options": {
+            "a": "10 kategorii,",
+            "b": "16 kategorii,",
+            "c": "4 kategorie."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 180,
+        "question": "Operator maszyny powinien znać kategorię gruntu, na którym pracuje:",
+        "options": {
+            "a": "aby obliczyć bezpieczną odległość ustawienia maszyny i zasięg klina odłamu,",
+            "b": "aby znać wymagania dotyczące obsługi podwozia maszyny,",
+            "c": "aby móc ocenić głębokość wykopu."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 181,
+        "question": "Podczas załadunku urobku na pojazd operator:",
+        "options": {
+            "a": "nie powinien przenosić łyżki z urobkiem nad kabiną pojazdu,",
+            "b": "może przenosić łyżkę z urobkiem nad kabiną pojazd, jeśli to przyspieszy załadunek,",
+            "c": "może zrzucać urobek na środek transportu z dowolnej wygodnej dla niego wysokości."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 182,
+        "question": "Przykładem prac zaliczanych do robót przygotowawczych do robót ziemnych jest:",
+        "options": {
+            "a": "montaż urządzeń oświetleniowych oraz wyznaczenie miejsc na maszyny ciężkie,",
+            "b": "wykonanie przekopów kontrolnych, usunięcie drzew i krzewów, wytyczenie budowli w terenie,",
+            "c": "ułożenie nawierzchni asfaltowej i montaż ogrodzeń."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 183,
+        "question": "Zdejmowanie humusu to:",
+        "options": {
+            "a": "główny etap robót ziemnych,",
+            "b": "praca wykonywana zawsze po zakończeniu robót budowlanych,",
+            "c": "jest to jeden z etapów robót przygotowawczych."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 184,
+        "question": "Odwodnienie wgłębne polega na:",
+        "options": {
+            "a": "obniżeniu poziomu wody gruntowej za pomocą studni depresyjnych lub igłofiltrów,",
+            "b": "pompowaniu wody z poziomu dna wykopu,",
+            "c": "wykopaniu rowów wokół wykopu."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 185,
+        "question": "Łyżka ładowarki podczas transportu materiału do miejsca rozładunku powinna być:",
+        "options": {
+            "a": "zamknięta i uniesiona na wysokość około 30-50 [cm],",
+            "b": "maksymalnie podniesiona, aby zwiększyć widoczność,",
+            "c": "w pełni opuszczona, by zapewnić stabilność jazdy."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 186,
+        "question": "Termin: \"wydajność maszyny do robót ziemnych\" określa:",
+        "options": {
+            "a": "ilość paliwa zużywanego przez maszynę na godzinę pracy,",
+            "b": "efekt pracy maszyny w ciągu jednostki czasu,",
+            "c": "poziom obciążenia silnika podczas pracy maszyny w jednostce czasu."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 187,
+        "question": "Wydajność maszyny do robót ziemnych można wyrazić:",
+        "options": {
+            "a": "w jednostkach ciśnienia [bar] lub temperatury [°C],",
+            "b": "w jednostkach objętości lub masy na jednostkę czasu np. [m³/h], [t/h],",
+            "c": "w jednostkach prędkości lub obrotów na jednostkę czasu np. [km/h], [rpm], [obr./s]."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 188,
+        "question": "Podczas załadunku na pojazd dużych odłamków skalnych należy zastosować warstwę amortyzującą z gruzu lub piasku, aby:",
+        "options": {
+            "a": "przyspieszyć późniejszy rozładunek kamieni,",
+            "b": "zapobiec przemieszczaniu się kamieni oraz zminimalizować ryzyko uszkodzenia skrzyni ładunkowej,",
+            "c": "wyrównać obciążenie pojazdu i poprawić jego stabilność."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 189,
+        "question": "Podczas załadunku dużych kamieni na pojazd należy pamiętać o:",
+        "options": {
+            "a": "upuszczaniu kamieni z dużej wysokości w celu ich wpasowania się w rozsypany na dnie piasek lub gruz,",
+            "b": "umieszczeniu warstwy amortyzującej z piasku lub gruzu na dnie skrzyni ładunkowej przed załadunkiem kamieni,",
+            "c": "ładowaniu kamieni bezpośrednio na puste dno skrzyni oraz przysypaniu ich piaskiem lub gruzem dla ich ustabilizowania."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 190,
+        "question": "Wykopy budowlane dzielimy na:",
+        "options": {
+            "a": "wąskoprzestrzenne, szerokoprzestrzenne i jamiste,",
+            "b": "małe, średnie i głębokie,",
+            "c": "podziemne, naziemne i pośrednie."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 191,
+        "question": "Wykop klasyfikuje się jako szerokoprzestrzenny, gdy:",
+        "options": {
+            "a": "jego szerokość przekracza 1,5 [m], a długość jest większa niż 1,5 [m],",
+            "b": "jego głębokość przekracza 2 [m] niezależnie od długości,",
+            "c": "jego szerokość wynosi 1 [m], a długość i głębokość jest większa niż 1,5 [m]."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 192,
+        "question": "Stosowanie na ładowarce odśnieżarki wirnikowej jest bardziej efektywne niż pługa w następującej sytuacji:",
+        "options": {
+            "a": "na dużych, płaskich i równych powierzchniach z niewielką ilością śniegu,",
+            "b": "przy dużej ilości śniegu, kiedy wymagane jest odrzucenie go na większą odległość,",
+            "c": "na niewielkich obszarach znajdujących się w ciasnej zabudowie."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 193,
+        "question": "Operator podczas cyklu załadunku pojazdu powinien:",
+        "options": {
+            "a": "unikać patrzenia wstecz podczas cofania maszyny, aby cały czas obserwować urobek,",
+            "b": "wykonywać płynne ruchy osprzętem i nie przemieszczać narzędzia roboczego nad kabiną operatora,",
+            "c": "napełniać naczynie robocze tylko do połowy, aby uniknąć przeciążenia."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 194,
+        "question": "Grunt uzyskany z wykopu nazywamy odkładem:",
+        "options": {
+            "a": "gdy jest przechowywany na później, np. do zasypania wykopu,",
+            "b": "gdy służy do zagęszczenia terenu,",
+            "c": "niezależnie od przyszłego zastosowania."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 195,
+        "question": "Jeżeli maszyna jest wyposażona w szybkozłącze hydrauliczne, do którego jest podłączony osprzęt roboczy, to należy:",
+        "options": {
+            "a": "okresowo wymieniać szybkozłącze, minimum 1 raz w miesiącu,",
+            "b": "sprawdzać szybkozłącze tylko wtedy, gdy pojawi się nieszczelność na połączeniu,",
+            "c": "codziennie sprawdzać stan szybkozłącza oraz jego połączenia z osprzętem roboczym."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 196,
+        "question": "Podczas urabiania wysokiej skarpy osprzętem ładowarkowym operator powinien pamiętać, że:",
+        "options": {
+            "a": "wysokość skarpy wpływa na efektywność pracy ładowarki,",
+            "b": "zmiana prędkości pracy może prowadzić do problemów z nawisami,",
+            "c": "wysokość skarpy większa od maksymalnej wysokości skrawania maszyny może prowadzić do powstania nawisów."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 197,
+        "question": "Działanie operatora zwiększające ryzyko powstania nawisów podczas urabiania skarp to:",
+        "options": {
+            "a": "zastosowanie maszyny o zbyt małej mocy,",
+            "b": "zła kolejność przejść podczas urabiania skarpy,",
+            "c": "praca przy skarpie mniejszej od maksymalnej wysokości skrawania maszyny."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 198,
+        "question": "Pracować maszyną z otwartymi drzwiami kabiny można:",
+        "options": {
+            "a": "tylko w przypadku, gdy instrukcja obsługi i eksploatacji maszyny przewiduje taką możliwość,",
+            "b": "zawsze,",
+            "c": "tylko, gdy temperatura powietrza przekracza 25 [°C]."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 199,
+        "question": "Wartość maksymalnych ładunków, które można podnosić za pomocą maszyny operator może ustalić:",
+        "options": {
+            "a": "na podstawie instrukcji obsługi i eksploatacji,",
+            "b": "przez próbne podnoszenie,",
+            "c": "na podstawie informacji na przyspawanym haku."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 200,
+        "question": "System \"pływającej\" łyżki/lemiesza:",
+        "options": {
+            "a": "zabezpiecza osprzęt przed utratą przy robotach melioracyjnych,",
+            "b": "działa na zasadzie automatycznego dostosowania się do terenu, co jest możliwe dzięki specjalnemu systemowi hydraulicznemu,",
+            "c": "umożliwia płynne poruszanie się maszyny po zboczach."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 201,
+        "question": "Rodzaj użytego wymiennego osprzętu roboczego uzależniony jest od tego, czy:",
+        "options": {
+            "a": "osprzęt posiada certyfikat CE,",
+            "b": "maszyna miała przeprowadzony przegląd okresowy,",
+            "c": "osprzęt dopuszczony jest do zastosowania przez producenta maszyny."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 202,
+        "question": "Przebieg podziemnego uzbrojenia terenu należy oznaczyć przed rozpoczęciem robót, aby:",
+        "options": {
+            "a": "umożliwić szybkie przemieszczenie maszyn w dowolnym kierunku,",
+            "b": "oszczędzić czas i zmniejszyć koszty robót ziemnych,",
+            "c": "uniknąć ryzyka uszkodzenia sieci podczas pracy."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 203,
+        "question": "Które z wymienionych elementów nie są częścią układu hydraulicznego:",
+        "options": {
+            "a": "rozrusznik, alternator,",
+            "b": "pompa, rozdzielacz, siłownik,",
+            "c": "zamek hydrauliczny, zbiornik oleju hydraulicznego."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 204,
+        "question": "Zamek hydrauliczny w maszynie to:",
+        "options": {
+            "a": "zamknięcie wlewu oleju hydraulicznego przy jego zbiorniku,",
+            "b": "zawór chroniący przed niekontrolowanym ruchem elementu znajdującego się w danej linii,",
+            "c": "zawór odpowiadający za sterowanie całym układem hydraulicznym."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 205,
+        "question": "Za zmianę ciśnienia oleju hydraulicznego w ruch mechaniczny odpowiada:",
+        "options": {
+            "a": "rozdzielacz hydrauliczny,",
+            "b": "układ pompy hydraulicznej,",
+            "c": "siłownik hydrauliczny oraz silnik hydrauliczny."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 206,
+        "question": "Ciśnienie w układzie hydraulicznym jest wytwarzane przez:",
+        "options": {
+            "a": "siłownik hydrauliczny,",
+            "b": "silnik hydrauliczny,",
+            "c": "pompę hydrauliczną."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 207,
+        "question": "Kierowanie przepływu oleju hydraulicznego do poszczególnych układów jest realizowane przez:",
+        "options": {
+            "a": "rozdzielacz hydrauliczny,",
+            "b": "zawór przelewowy,",
+            "c": "zamek hydrauliczny."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 208,
+        "question": "Zawór bezpieczeństwa chroni układ hydrauliczny przed:",
+        "options": {
+            "a": "przegrzewaniem się oleju hydraulicznego,",
+            "b": "zapowietrzeniem układu hydraulicznego,",
+            "c": "nadmiernym wzrostem ciśnienia."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 209,
+        "question": "Zawór przelewowy w układzie hydraulicznym jest odpowiedzialny za:",
+        "options": {
+            "a": "odpowietrzanie układu,",
+            "b": "utrzymanie stałej pozycji narzędzia roboczego,",
+            "c": "ograniczenie maksymalnego roboczego ciśnienia w danym obwodzie."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 210,
+        "question": "Jeżeli w układzie hydraulicznym nadmiernie wzrośnie ciśnienie, to nadmiar oleju zostanie skierowany do:",
+        "options": {
+            "a": "zbiornika oleju hydraulicznego,",
+            "b": "filtra oleju hydraulicznego,",
+            "c": "rozdzielacza."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 211,
+        "question": "Podstawowe parametry jakie charakteryzują akumulator elektryczny to:",
+        "options": {
+            "a": "napięcie [V], pojemność [Ah], prąd rozruchowy [A],",
+            "b": "napięcie [V], oporność [Ω], moc [W],",
+            "c": "napięcie [V], moc [W], masa [kg]."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 212,
+        "question": "Akumulatory kwasowe można ładować:",
+        "options": {
+            "a": "w każdym pomieszczeniu,",
+            "b": "w miejscu specjalnie do tego przeznaczonym,",
+            "c": "tylko w pomieszczeniu klimatyzowanym."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 213,
+        "question": "Ciśnienie w ogumieniu powinno być dostosowane do:",
+        "options": {
+            "a": "wymagań właściciela terenu,",
+            "b": "preferencji operatora,",
+            "c": "wartości podanych w instrukcji obsługi i eksploatacji."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 214,
+        "question": "Nierównomierne ciśnienie w ogumieniu:",
+        "options": {
+            "a": "zmniejsza stateczność maszyny,",
+            "b": "nie wpływa na eksploatację maszyny,",
+            "c": "poprawia własności jezdne maszyny."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 215,
+        "question": "W maszynie roboczej zwolnica najczęściej znajduje się:",
+        "options": {
+            "a": "w układzie hydraulicznym, blisko pompy głównej,",
+            "b": "w kabinie operatora, przy sterowniku jazdy,",
+            "c": "w układzie napędowym przy kołach napędzających."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 216,
+        "question": "Rozdzielacz hydrauliczny:",
+        "options": {
+            "a": "przetwarza energię mechaniczną na energię hydrauliczną,",
+            "b": "kieruje przepływ oleju hydraulicznego do odpowiednich sekcji,",
+            "c": "zwiększa moment obrotowy w przekładni bocznej."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 217,
+        "question": "Rozdzielacz hydrauliczny to urządzenie, które:",
+        "options": {
+            "a": "umożliwia sterowanie poszczególnymi sekcjami hydraulicznymi maszyny,",
+            "b": "rozdziela olej pomiędzy silnikiem a układem hydraulicznym,",
+            "c": "rozdziela olej pomiędzy obiegiem małym i obiegiem dużym."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 218,
+        "question": "Kabina typu ROPS w maszynach budowlanych chroni operatora przed:",
+        "options": {
+            "a": "zgnieceniem, w przypadku przewrócenia się maszyny,",
+            "b": "uderzeniem elementami spadającymi z góry,",
+            "c": "zapyleniem w kabinie operatora."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 219,
+        "question": "Kabina typu FOPS w maszynach budowlanych chroni operatora przed:",
+        "options": {
+            "a": "uderzeniem elementami spadającymi z góry,",
+            "b": "nadmiernym hałasem w kabinie operatora,",
+            "c": "zgnieceniem w przypadku przewrócenia się maszyny."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 220,
+        "question": "Kabina typu ROPS w maszynach budowlanych chroni przed:",
+        "options": {
+            "a": "przewróceniem się maszyny,",
+            "b": "upadkiem maszyny ze skarpy i jej rolowaniem,",
+            "c": "zgnieceniem operatora w przypadku przewrócenia się maszyny."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 221,
+        "question": "Różnica pomiędzy kabiną ROPS, a kabiną FOPS polega na tym, że:",
+        "options": {
+            "a": "kabina ROPS chroni przed zgnieceniem, a FOPS przed elementami spadającymi z góry,",
+            "b": "kabina ROPS chroni przed hałasem, a FOPS przed przewróceniem maszyny,",
+            "c": "kabina ROPS chroni przed elementami spadającymi z góry, a FOPS przed zgnieceniem."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 222,
+        "question": "Podstawowym warunkiem, aby kabiny ROPS i FOPS zapewniały skuteczną ochronę operatorowi jest:",
+        "options": {
+            "a": "zapięcie pasów bezpieczeństwa przez operatora,",
+            "b": "regularna konserwacja kabiny,",
+            "c": "smarowanie połączeń kabiny minimum co tydzień."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 223,
+        "question": "Mechanizm różnicowy:",
+        "options": {
+            "a": "pozwala na zwiększenie prędkości jazdy na prostych odcinkach,",
+            "b": "reguluje przepływ płynów w układzie różnicowym,",
+            "c": "umożliwia zróżnicowanie prędkości obrotowej kół napędowych pracujących na jednej osi."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 224,
+        "question": "Przeguby w układach napędowych jazdy służą do:",
+        "options": {
+            "a": "zmniejszania prędkości obrotowej kół,",
+            "b": "przekazywania momentu obrotowego między wałami o nachylonych osiach,",
+            "c": "stabilizacji maszyny na nierównym terenie."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 225,
+        "question": "Obsługa przegubów krzyżakowych w układach napędowych jazdy polega na:",
+        "options": {
+            "a": "utrzymaniu ich w czystości i regularnym smarowaniu,",
+            "b": "codziennym sprawdzaniu luzów,",
+            "c": "sprawdzaniu poziomu oleju w przegubach w ramach obsługi technicznej codziennej."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 226,
+        "question": "Mianem nadwozia w maszynach do robót ziemnych określamy:",
+        "options": {
+            "a": "podstawę maszyny,",
+            "b": "górną część maszyny z układem napędowym,",
+            "c": "górną część maszyny."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 227,
+        "question": "Za podnoszenie i opuszczanie łyżki w osprzęcie ładowarkowym odpowiada:",
+        "options": {
+            "a": "siłownik wysięgnika,",
+            "b": "mechanizm prostowodowy,",
+            "c": "siłownik łyżki."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 228,
+        "question": "Przekładnia hydrokinetyczna (zmiennik momentu) w układzie napędowym maszyny:",
+        "options": {
+            "a": "umożliwia ręczne sterowanie momentem obrotowym przenoszonym na koła napędowe,",
+            "b": "płynnie zwiększa moment obrotowy w miarę wzrostu obciążenia,",
+            "c": "płynnie zmniejsza moment obrotowy w miarę wzrostu obciążenia."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 229,
+        "question": "Za płynne zwiększanie momentu obrotowego, w zależności od obciążenia, odpowiada:",
+        "options": {
+            "a": "przekładnia hydrokinetyczna,",
+            "b": "mechaniczna skrzynia biegów,",
+            "c": "wał napędowy z przegubami."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 230,
+        "question": "Zmniejszenie prędkości z jednoczesnym zwiększeniem momentu obrotowego przekazywanego na koła napędowe jest realizowane przez:",
+        "options": {
+            "a": "rozdzielacz hydrauliczny,",
+            "b": "hamulce mokre,",
+            "c": "zwolnice planetarne."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 231,
+        "question": "Typy układów napędowych występujących w podwoziach ładowarek to:",
+        "options": {
+            "a": "elektryczny, pneumatyczny, hydrauliczny,",
+            "b": "mechaniczny, mechaniczno-hydrokinetyczny, hydrostatyczny,",
+            "c": "tylko mechaniczny lub mechaniczno-hydrokinetyczny."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 232,
+        "question": "Ochronę operatora podczas pracy zapewniają:",
+        "options": {
+            "a": "błotniki i podesty robocze,",
+            "b": "przeciwwagi i wycieraczki szyb,",
+            "c": "kabina z osłonami ROPS i FOPS."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 233,
+        "question": "Mechanizm prostowodowy w układzie roboczym ładowarki:",
+        "options": {
+            "a": "utrzymuje pozycję łyżki w stałym położeniu podczas podnoszenia i opuszczania wysięgnika,",
+            "b": "służy do łatwiejszego prowadzenia łyżki w poziomie przy skrawaniu i nabieraniu urobku,",
+            "c": "umożliwia ruch łyżki na boki w celu precyzyjnego ustawienia."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 234,
+        "question": "Główna funkcja chwytaka w ładowarkach to:",
+        "options": {
+            "a": "przenoszenie niestandardowych i nieforemnych materiałów, takich jak drewno lub złom,",
+            "b": "rozdrabnianie dużych kawałków gruntu na mniejsze części,",
+            "c": "zwiększanie przyczepności ładowarki na nierównym terenie."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 235,
+        "question": "Mechanizm różnicowy umożliwia przekazywanie momentu obrotowego na koła:",
+        "options": {
+            "a": "zapewniając ich obrót zawsze z takimi samymi prędkościami,",
+            "b": "dwóch różnych osi,",
+            "c": "przy jednoczesnym obracaniu się kół z różnymi prędkościami."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 236,
+        "question": "W pojazdach z mechanizmem różnicowym w czasie pokonywania zakrętów:",
+        "options": {
+            "a": "wewnętrzne koło obraca się szybciej niż zewnętrzne,",
+            "b": "wewnętrzne koło obraca się wolniej niż zewnętrzne,",
+            "c": "obciążenie przenoszone jest wyłącznie na koło wewnętrzne."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 237,
+        "question": "Uszkodzenia ramy ROPS skutkujące koniecznością jej wymiany to:",
+        "options": {
+            "a": "pęknięcie lub wygięcie konstrukcji,",
+            "b": "przebarwienie lakieru spowodowane warunkami atmosferycznymi i upływem czasu,",
+            "c": "drobne zarysowania powierzchni."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 238,
+        "question": "Wiercenie dodatkowych otworów w konstrukcji kabiny typu ROPS jest zabronione, ponieważ:",
+        "options": {
+            "a": "powoduje spadek wytrzymałości konstrukcji,",
+            "b": "zmniejsza wagę maszyny,",
+            "c": "obniża komfort pracy operatora."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 239,
+        "question": "Przepływ i kierunek cieczy hydraulicznej w układzie regulują:",
+        "options": {
+            "a": "silniki hydrauliczne,",
+            "b": "zawory hydrauliczne,",
+            "c": "pompy hydrauliczne."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 240,
+        "question": "Elementy układu, takie jak siłowniki i silniki hydrauliczne, przetwarzają energię hydrauliczną na:",
+        "options": {
+            "a": "energię elektryczną,",
+            "b": "energię mechaniczną,",
+            "c": "ciśnienie w zbiorniku."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 241,
+        "question": "Funkcją, jaką spełnia konstrukcja ochronna FOPS jest:",
+        "options": {
+            "a": "ochrona operatora przed skutkami wywrócenia maszyny,",
+            "b": "ochrona operatora przed spadającymi przedmiotami,",
+            "c": "ochrona operatora przed oddziaływaniem spalin i hałasu."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 242,
+        "question": "Konstrukcję ochronną FOPS koniecznie należy stosować przy:",
+        "options": {
+            "a": "robotach, przy wykonywaniu których na kabinę mogą spaść ciężkie elementy (np. roboty rozbiórkowe, w kamieniołomach itp.),",
+            "b": "robotach podwodnych,",
+            "c": "wszystkich robotach ziemnych."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 243,
+        "question": "W maszynie wyposażonej w konstrukcję ochronną ROPS lub FOPS musi istnieć i być wykorzystywany przez operatora dodatkowy system zabezpieczeń, którym są:",
+        "options": {
+            "a": "pasy bezpieczeństwa,",
+            "b": "hełm ochronny, obuwie ochronne,",
+            "c": "obuwie ochronne, ochronniki słuchu, ochrony dróg oddechowych."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 244,
+        "question": "Konstrukcja ochronna ROPS w maszynie:",
+        "options": {
+            "a": "jest wymagana zawsze,",
+            "b": "nie jest wymagana, gdy zatrudniani są tylko wykwalifikowani operatorzy maszyn,",
+            "c": "nie jest wymagana, gdy nie jest to technicznie możliwe, a istnieje małe ryzyko wywrócenia maszyny (możliwość podparcia wysięgnikiem)."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 245,
+        "question": "Optymalne tłumienie wstrząsów i drgań fotela operatora zapewnia się poprzez:",
+        "options": {
+            "a": "możliwie elastyczną regulację fotela,",
+            "b": "regulację fotela dostosowując go do wagi operatora,",
+            "c": "ustawienie fotela na sztywno."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 246,
+        "question": "Panel sterujący ryglowaniem narzędzia roboczego, gdy maszyna jest wyposażona w urządzenie do szybkiej wymiany osprzętu z blokadą hydrauliczną, jest wyposażony w:",
+        "options": {
+            "a": "zabezpieczenie przed niezamierzonym uruchomieniem panelu sterującego,",
+            "b": "zabezpieczenie przed zbyt wysoką prędkością obrotową silnika,",
+            "c": "16-amperowe zabezpieczenie przed przeciążeniem elektrycznym."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 247,
+        "question": "Wyposażenie ochronne, które musi posiadać maszyna przy robotach rozbiórkowych, to:",
+        "options": {
+            "a": "urządzenie ostrzegające przed przeciążeniem i zabezpieczenie przed pęknięciem przewodu na wysięgniku,",
+            "b": "lampę sygnalizacyjną i biało-czerwono-białe naklejki bezpieczeństwa,",
+            "c": "daszek ochronny – kabina FOPS."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 248,
+        "question": "Obowiązkowym wyposażeniem służącym do obserwacji przez operatora terenu znajdującego się bezpośrednio za maszyną jest:",
+        "options": {
+            "a": "sygnał dźwiękowy przy jeździe wstecz,",
+            "b": "lusterko zewnętrzne,",
+            "c": "kamera wsteczna."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 249,
+        "question": "Razem z operatorem w kabinie maszyny mogą jechać inne osoby, jeżeli:",
+        "options": {
+            "a": "maszyna jedzie z niewielką prędkością,",
+            "b": "producent zamontował dodatkowe miejsce siedzące,",
+            "c": "odbyły razem z operatorem szkolenie BHP i są to maksymalnie 2 osoby."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 250,
+        "question": "Najważniejszym elementem wyposażenia kabiny operatora z punktu widzenia jego bezpieczeństwa jest:",
+        "options": {
+            "a": "awaryjny przycisk STOP ,",
+            "b": "pas bezpieczeństwa,",
+            "c": "lusterko lub kamera."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 251,
+        "question": "Lusterka i kamera cofania w maszynie, służy do:",
+        "options": {
+            "a": "poprawy widoczności operatora i zwiększenia bezpieczeństwa,",
+            "b": "kontroli stanu technicznego maszyny,",
+            "c": "ułatwienia manewrowania osprzętem roboczym."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 252,
+        "question": "W kabinach typu ROPS można samodzielnie montować dodatkowe wyposażenie np. uchwyty do telefonu:",
+        "options": {
+            "a": "pamiętając, że montaż możliwy jest jedynie na słupkach kabiny,",
+            "b": "ale wyposażenie to musi być na stałe przykręcone do konstrukcji kabiny,",
+            "c": "pod warunkiem, że nie ma ingerencji w konstrukcję kabiny."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 253,
+        "question": "W maszynach, które nie posiadają zamkniętych kabin zabezpieczenie ROPS może zostać zrealizowane za pomocą:",
+        "options": {
+            "a": "dodatkowych barierek montowanych na nadwoziu maszyny,",
+            "b": "systemu stabilizacji maszyny lub balastowania,",
+            "c": "pałąków przeciwkapotażowych ."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 254,
+        "question": "Lampa błyskowa koloru zielonego umieszczona na kabinie maszyny sygnalizuje m.in.:",
+        "options": {
+            "a": "włączony ekologiczny tryb pracy maszyny,",
+            "b": "poprawne zapięcie pasów bezpieczeństwa,",
+            "c": "brak operatora w kabinie."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 255,
+        "question": "Przy równoległym połączeniu dwóch takich samych akumulatorów napięcie takiego układu jest:",
+        "options": {
+            "a": "równe napięciu pojedynczego akumulatora,",
+            "b": "iloczynem napięć poszczególnych akumulatorów,",
+            "c": "sumą napięć poszczególnych akumulatorów."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 256,
+        "question": "Przy szeregowym połączeniu dwóch takich samych akumulatorów napięcie takiego układu jest:",
+        "options": {
+            "a": "sumą napięć poszczególnych akumulatorów,",
+            "b": "iloczynem napięć poszczególnych akumulatorów,",
+            "c": "równe napięciu pojedynczego akumulatora."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 257,
+        "question": "Bezpieczniki w instalacji elektrycznej maszyny zabezpieczają ją przed skutkami:",
+        "options": {
+            "a": "wysokiej temperatury,",
+            "b": "niskiego napięcia ,",
+            "c": "zwarć i przeciążeń."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 258,
+        "question": "Jednym z elementów układu elektrycznego zabezpieczającego silnik przed zatarciem jest:",
+        "options": {
+            "a": "bezpiecznik główny,",
+            "b": "czujnik ciśnienia oleju silnikowego,",
+            "c": "regulator obrotów."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 259,
+        "question": "Akumulatory żelowe będące elementem układu elektrycznego nie wymagają:",
+        "options": {
+            "a": "ładowania prostownikiem,",
+            "b": "wymiany przy uszkodzeniu obudowy,",
+            "c": "uzupełniania elektrolitu."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 260,
+        "question": "Układy elektryczne maszyn i urządzeń powinny być wyposażone w urządzenie powodujące zatrzymanie awaryjne co najmniej w ilości:",
+        "options": {
+            "a": "trzech urządzeń powodujących zatrzymanie awaryjne, zgodnie z europejską dyrektywą maszynową,",
+            "b": "dwóch urządzeń powodujących zatrzymanie awaryjne umieszczonych po obu stronach maszyny, zgodnie z europejską dyrektywą maszynową,",
+            "c": "jednego urządzenia powodującego zatrzymanie awaryjne, zgodnie z europejską dyrektywą maszynową."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 261,
+        "question": "Urządzenie zatrzymania awaryjnego maszyny jest elementem:",
+        "options": {
+            "a": "układu jazdy,",
+            "b": "układu paliwowego,",
+            "c": "układu elektrycznego."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 262,
+        "question": "Główne parametry silnika spalinowego wpływające na efektywność pracy to:",
+        "options": {
+            "a": "stopień sprężania, pojemność skokowa,",
+            "b": "moment obrotowy, prędkość obrotowa,",
+            "c": "rodzaj gaźnika, rodzaj układu zapłonowego."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 263,
+        "question": "Układ korbowo-tłokowy silnika spalinowego ma za zadanie:",
+        "options": {
+            "a": "zamienić energię mechaniczną na hydrauliczną,",
+            "b": "zamienić ruch posuwisto-zwrotny tłoka na ruch obrotowy wału korbowego,",
+            "c": "zapewnić efektywne działanie sprzęgła."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 264,
+        "question": "Układ smarowania w silniku spalinowym:",
+        "options": {
+            "a": "odpowiedzialny jest za prawidłowe olejenie współpracujących ze sobą ruchomych elementów silnika,",
+            "b": "zapewnia regulację prędkości obrotowej oraz redukuje drgania silnika podczas pracy,",
+            "c": "odpowiada za usuwanie niebezpiecznych substancji powstałych w procesie spalania mieszanki."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 265,
+        "question": "Układami występującymi w silnikach spalinowych są m.in..:",
+        "options": {
+            "a": "układ korbowo-tłokowy, układ zasilania, układ chłodzenia,",
+            "b": "układ wydechowy, układ pneumatyczny, układ zamknięty,",
+            "c": "układ hydrauliczny, układ dolotowy."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 266,
+        "question": "Niskociśnieniowa część układu zasilania silnika wysokoprężnego to:",
+        "options": {
+            "a": "zbiornik paliwa i wtryskiwacze,",
+            "b": "zbiornik paliwa, pompka zasilająca, filtry, przewody paliwowe,",
+            "c": "przewody paliwowe, pompa wysokiego ciśnienia, listwa common rail."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 267,
+        "question": "Elementem sterującym przepływem płynu chłodniczego na tzw. \"duży obieg\" jest:",
+        "options": {
+            "a": "termostat,",
+            "b": "termopara,",
+            "c": "termofor."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 268,
+        "question": "Intercooler to:",
+        "options": {
+            "a": "urządzenie do dopalania cząstek stałych w spalinach,",
+            "b": "inna nazwa chłodnicy płynu chłodzącego silnik,",
+            "c": "chłodnica powietrza doładowanego ."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 269,
+        "question": "Filtr DPF:",
+        "options": {
+            "a": "to suchy filtr cząstek stałych odpowiedzialny m.in. za wyłapywanie sadzy ze spalin,",
+            "b": "to dokładny filtr kabinowy chroniący operatora podczas pracy w dużym zapyleniu,",
+            "c": "służy do zmniejszenia emisji NOx (tlenków azotu)."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 270,
+        "question": "Częstotliwość i zakres wykonania obsług okresowych maszyny/urządzenia, na które zdajesz egzamin:",
+        "options": {
+            "a": "są zawarte w dokumentacji IBWR,",
+            "b": "są zawarte w instrukcji obsługi i eksploatacji maszyny,",
+            "c": "określa właściciel maszyny/urządzenia."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 271,
+        "question": "Instrukcja obsługi i eksploatacji maszyny/urządzenia to:",
+        "options": {
+            "a": "zestaw informacji niezbędnych do bezpiecznego eksploatowania maszyny/urządzenia wydawany przez służby BHP na budowie,",
+            "b": "zestaw informacji niezbędnych do bezpiecznego eksploatowania maszyny/urządzenia wydawany przez producenta maszyny/urządzenia,",
+            "c": "zestaw informacji niezbędnych do bezpiecznego eksploatowania maszyny/urządzenia, który zawiera między innymi IBWR."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 272,
+        "question": "Operatorowi maszyny/urządzenia, na które zdajesz egzamin nie wolno:",
+        "options": {
+            "a": "użytkować maszyny/urządzenia niezgodnie z przeznaczeniem,",
+            "b": "dokonywać żadnych napraw, ani konserwacji,",
+            "c": "w trakcie pracy kontrolować stanu technicznego maszyny/urządzenia."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 273,
+        "question": "Objawem zbyt niskiego poziomu oleju hydraulicznego może być:",
+        "options": {
+            "a": "\"skokowy\" przerywany ruch siłowników hydraulicznych,",
+            "b": "nierówna praca silnika wysokoprężnego,",
+            "c": "głośna praca rozrusznika."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 274,
+        "question": "W przypadku stwierdzenia uszkodzenia ogumienia mogącego spowodować zagrożenie operator powinien:",
+        "options": {
+            "a": "kontynuować pracę zmniejszając prędkość i obciążenie maszyny,",
+            "b": "przerwać pracę,",
+            "c": "powiadomić przełożonego i ostrożnie kontynuować pracę."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 275,
+        "question": "Jeżeli zaświeci się kontrolka zbyt niskiego ciśnienia oleju silnikowego operator:",
+        "options": {
+            "a": "nie musi podejmować żadnych działań,",
+            "b": "może kontynuować pracę, jeżeli układ hydrauliczny działa prawidłowo,",
+            "c": "powinien przerwać pracę i wyłączyć silnik."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 276,
+        "question": "Przyczyną utraty stateczności maszyny może być:",
+        "options": {
+            "a": "praca maszyny w miejscu dla niej właściwym,",
+            "b": "jazda po nawierzchni utwardzonej,",
+            "c": "zbyt niskie ciśnienie w oponach."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 277,
+        "question": "Przyczyną utraty stateczności maszyny może być:",
+        "options": {
+            "a": "jazda po nawierzchni utwardzonej,",
+            "b": "jazda z narzędziem roboczym opuszczonym na wysokość transportową,",
+            "c": "jazda z wysoko podniesionym narzędziem roboczym."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 278,
+        "question": "Instrukcja obsługi i eksploatacji maszyny/urządzenia:",
+        "options": {
+            "a": "zawiera m.in. informację o zagrożeniach podczas pracy maszyną/urządzeniem,",
+            "b": "jest zakładana przez właściciela lub użytkownika maszyny,",
+            "c": "służy do wpisywania informacji o usterkach."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 279,
+        "question": "Deklaracja Zgodności CE jest to dokument:",
+        "options": {
+            "a": "potwierdzający, że wyrób został wyprodukowany w krajach Unii Europejskiej,",
+            "b": "wydawany przez instytucje zajmujące się badaniem maszyn pod względem wytrzymałości na warunki atmosferyczne,",
+            "c": "w którym producent potwierdza, że jego produkt spełnia wszystkie obowiązujące wymagania UE dotyczące bezpieczeństwa, ochrony zdrowia i środowiska."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 280,
+        "question": "Informacje dotyczące stosowania środków ochrony indywidualnej i sposobu ograniczania ryzyka zawodowego operator może znaleźć:",
+        "options": {
+            "a": "w książce serwisowej,",
+            "b": "w instrukcji obsługi i eksploatacji maszyny/urządzenia,",
+            "c": "w Deklaracji Zgodności CE."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 281,
+        "question": "Instrukcję obsługi i eksploatacji maszyny/urządzenia:",
+        "options": {
+            "a": "opracowuje producent maszyny/urządzenia albo podmiot, który wprowadza maszynę/urządzenie do obrotu,",
+            "b": "tworzy kierownik budowy na podstawie informacji od producenta,",
+            "c": "tworzą instytucje, które przeprowadzają badania i akredytację prototypów maszyn/urządzeń przed dopuszczeniem do ich seryjnej produkcji."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 282,
+        "question": "Instrukcja obsługi i eksploatacji maszyny/urządzenia:",
+        "options": {
+            "a": "powinna znajdować się w maszynie lub przy urządzeniu, być traktowana jako część maszyny/urządzenia i być dostępna w każdej chwili,",
+            "b": "powinna znajdować się w biurze razem z dokumentacją firmy i być dostępna w razie kontroli,",
+            "c": "nie ma znaczenia gdzie się znajduje, najważniejsze żeby właściciel maszyny posiadał ją w razie odsprzedaży maszyny."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 283,
+        "question": "Dane identyfikacyjne maszyny/urządzenia:",
+        "options": {
+            "a": "powinny być zanotowane na wewnętrznej stronie hełmu ochronnego przypisanego do danej maszyny/urządzenia,",
+            "b": "znajdują się na tabliczce znamionowej maszyny/urządzenia, dodatkowo mogą być w miejscach znakowania opisanych w instrukcji,",
+            "c": "ze względu na ich ważność zawsze są nadrukowywane w kolorze czerwonym."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 284,
+        "question": "Aby zminimalizować ryzyko wystąpienia niesprawności maszyny/urządzenia operator powinien:",
+        "options": {
+            "a": "regularnie wizualnie oceniać stan maszyny/urządzenia oraz zgłaszać zauważone nieprawidłowości,",
+            "b": "korzystać z maszyny/urządzenia do momentu, gdy awaria stanie się poważna,",
+            "c": "wykonywać czynności konserwacyjne tylko wtedy, gdy maszyna/urządzenie przestanie działać."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 285,
+        "question": "Kluczowe czynności dla bezpiecznej obsługi technicznej maszyny to:",
+        "options": {
+            "a": "zabezpieczenie osprzętów, pokryw oraz drzwiczek przed przypadkowym zamknięciem i stosowanie środków ochrony indywidualnej,",
+            "b": "stosowanie rękawic lateksowych, bez potrzeby stosowania innych środków ochrony indywidualnej,",
+            "c": "przeprowadzanie obsługi technicznej bez zabezpieczenia osprzętów roboczych, aby zaoszczędzić czas."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 286,
+        "question": "Zasady bezpiecznego wykonywania obsług technicznych przy maszynach to:",
+        "options": {
+            "a": "silnik może pozostać włączony, aby szybciej przeprowadzić obsługę, zwłaszcza jeśli maszyna pracuje na biegu jałowym,",
+            "b": "maszynę można zostawić na nachylonym terenie, o ile operator planuje krótką obsługę techniczną,",
+            "c": "maszyna powinna być posadowiona na terenie poziomym, osprzęty robocze opuszczone na podłoże, silnik wyłączony, a kluczyk wyjęty ze stacyjki."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 287,
+        "question": "Docieranie maszyny w początkowym okresie eksploatacji to:",
+        "options": {
+            "a": "intensywny test pełnego obciążenia maszyny,",
+            "b": "etap pracy maszyny bez obciążenia,",
+            "c": "proces uzyskiwania optymalnych luzów i równomiernego zużycia części."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 288,
+        "question": "Operator korzysta z instrukcji obsługi i eksploatacji maszyny lub urządzenia, aby:",
+        "options": {
+            "a": "rejestrować w niej przepracowane godziny i zużycie paliwa przez maszynę,",
+            "b": "rejestrować wszystkie usterki maszyny lub urządzenia zauważone podczas pracy,",
+            "c": "poznać specyfikacje techniczne, zasady BHP i sposoby naprawy usterek."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 289,
+        "question": "Część obsługowa instrukcji obsługi i eksploatacji maszyny lub urządzenia zawiera:",
+        "options": {
+            "a": "instrukcje dotyczące m. in. sterowania maszyną/urządzeniem,",
+            "b": "szczegółowy opis budowy i działania wszystkich elementów maszyny/urządzenia,",
+            "c": "katalog części zamiennych."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 290,
+        "question": "Instrukcja obsługi i eksploatacji musi zawsze znajdować się przy maszynie/urządzeniu, ponieważ:",
+        "options": {
+            "a": "minimalizuje to ryzyko jej zagubienia,",
+            "b": "jest niezbędna do okresowych przeglądów technicznych,",
+            "c": "jej brak może być powodem niedopuszczenia maszyny do pracy przez inspektora BHP ."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 291,
+        "question": "Elementami układu roboczego wymagającymi regularnego smarowania są:",
+        "options": {
+            "a": "sworznie łączące poszczególne części osprzętu,",
+            "b": "powierzchnie boczne siłowników hydraulicznych,",
+            "c": "przewody hydrauliczne elastyczne."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 292,
+        "question": "Podczas pracy maszyną wyposażoną w przekładnię hydrokinetyczną należy unikać długich jej poślizgów ponieważ:",
+        "options": {
+            "a": "powodują one nadmierne nagrzewanie się zmiennika, co może prowadzić do jego uszkodzenia,",
+            "b": "mogą one spowodować rozszczelnienie i wyciek oleju z układu hydraulicznego,",
+            "c": "zmniejszają one ogólną moc przekazywaną na układ napędowy."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 293,
+        "question": "Przegubową ramę ładowarki jednonaczyniowej kołowej należy spiąć:",
+        "options": {
+            "a": "podczas jazdy na wprost,",
+            "b": "podczas podnoszenia ładowarki na zawiesiach linowych,",
+            "c": "podczas jazdy po nierównym terenie."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 294,
+        "question": "Ze względów bezpieczeństwa zaleca się spięcie przegubowej ramy ładowarki podczas:",
+        "options": {
+            "a": "pracy na stromych zboczach,",
+            "b": "wykonywania prac serwisowych i obsług technicznych,",
+            "c": "długich przejazdów na wprost z ładunkiem."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 295,
+        "question": "Oznaczenie SAE na oleju odnosi się do:",
+        "options": {
+            "a": "lepkości oleju silnikowego, czyli jego zdolności do płynięcia i smarowania,",
+            "b": "ciśnienia oleju silnikowego,",
+            "c": "kwalifikacji wielosezonowej oleju."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 296,
+        "question": "Olej o symbolu SAE 15W-40 oznacza, że:",
+        "options": {
+            "a": "w temperaturze ujemnej ma właściwości lepkościowe oleju zimowego SAE 15W, a w temperaturze dodatniej oleju letniego klasy SAE 40,",
+            "b": "w temperaturze dodatniej ma właściwości lepkościowe oleju letniego SAE 15W,",
+            "c": "w temperaturze dodatniej ma właściwości lepkościowe oleju zimowego klasy SAE 40."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 297,
+        "question": "Olej o symbolu SAE 10W-30 oznacza, że:",
+        "options": {
+            "a": "w temperaturze dodatniej ma właściwości lepkościowe oleju zimowego SAE 10W,",
+            "b": "w temperaturze ujemnej ma właściwości lepkościowe oleju letniego SAE 30,",
+            "c": "w temperaturze ujemnej ma właściwości lepkościowe oleju zimowego SAE 10W, a w temperaturze dodatniej oleju letniego klasy SAE 30."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 298,
+        "question": "Symbol SAE 10W-30 oznacza:",
+        "options": {
+            "a": "mieszankę oleju silnikowego i oleju hydraulicznego,",
+            "b": "olej hydrauliczny o określonych parametrach,",
+            "c": "olej silnikowy wielosezonowy o określonych parametrach."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 299,
+        "question": "Olej silnikowy o symbolu SAE 5W-40 oznacza, że:",
+        "options": {
+            "a": "w temperaturze ujemnej ma właściwości lepkościowe oleju zimowego klasy SAE 40,",
+            "b": "w temperaturze dodatniej ma właściwości lepkościowe oleju letniego SAE 5W,",
+            "c": "w temperaturze ujemnej ma właściwości lepkościowe oleju zimowego SAE 5W, a w temperaturze dodatniej oleju letniego klasy SAE 40."
+        },
+        "correct_answer": "c",
+        "image": null 
+    },
+    {
+        "id": 300,
+        "question": "Przedstawiony na grafice symbol kontrolki ostrzegawczej oznacza:",
+        "options": {
+            "a": "niski poziom oleju silnikowego,",
+            "b": "niskie ciśnienie oleju silnikowego,",
+            "c": "niski poziom płynu chłodzącego."
+        },
+        "correct_answer": "a",
+        "image": "page_53_Image147.jpg"
+    },
+    {
+        "id": 301,
+        "question": "Przedstawiony na grafice symbol kontrolki ostrzegawczej oznacza:",
+        "options": {
+            "a": "niskie ciśnienie oleju silnikowego,",
+            "b": "niski poziom paliwa,",
+            "c": "niski poziom płynu chłodzącego."
+        },
+        "correct_answer": "a",
+        "image": "page_54_Image150.jpg"
+    },
+    {
+        "id": 302,
+        "question": "Przedstawiony symbol kontrolki oznacza:",
+        "options": {
+            "a": "olej silnikowy,",
+            "b": "filtr oleju silnika,",
+            "c": "olej hydrauliczny."
+        },
+        "correct_answer": "a",
+        "image": "page_54_Image151.jpg"
+    },
+    {
+        "id": 303,
+        "question": "Przedstawiony symbol kontrolki oznacza:",
+        "options": {
+            "a": "poziom płynu chłodzącego silnika,",
+            "b": "poziom oleju silnikowego,",
+            "c": "poziom oleju hydraulicznego."
+        },
+        "correct_answer": "b",
+        "image": "page_54_Image152.jpg"
+    },
+    {
+        "id": 304,
+        "question": "Oleje o oznaczeniach 70W, 85W, 80W-90 są:",
+        "options": {
+            "a": "olejami silnikowymi,",
+            "b": "olejami przekładniowymi,",
+            "c": "olejami hamulcowymi."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 305,
+        "question": "W przypadku konieczności demontażu osłony/zabezpieczenia do przeprowadzenia obsługi, nie wolno:",
+        "options": {
+            "a": "odnotowywać takiego faktu w dokumentacji,",
+            "b": "montować powtórnie osłony/zabezpieczenia,",
+            "c": "rozpoczynać pracy urządzeniem bez zamontowania osłony/zabezpieczenia."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 306,
+        "question": "Zapalenie się lampki kontrolnej ładowania akumulatora sygnalizuje operatorowi maszyny budowlanej uszkodzenie:",
+        "options": {
+            "a": "pasa klinowego i/lub alternatora,",
+            "b": "przełącznika akumulatorów,",
+            "c": "rozrusznika."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 307,
+        "question": "Fotela operatora nie można regulować w sytuacji, gdy:",
+        "options": {
+            "a": "fotel jest odwrócony do tyłu,",
+            "b": "nie jest uruchomiony silnik,",
+            "c": "maszyna jest w ruchu."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 308,
+        "question": "Jeżeli w trakcie obsługi technicznej codziennej przed pracą operator zauważy, że jedna z szyb w kabinie jest popękana, to:",
+        "options": {
+            "a": "może podjąć pracę pod warunkiem, że szyba jest jedynie popękana i nie \"wyleciała\",",
+            "b": "powinien nie podejmować pracy,",
+            "c": "może podjąć pracę, jeżeli nie jest to szyba przednia."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 309,
+        "question": "Przed rozpoczęciem pracy operator powinien:",
+        "options": {
+            "a": "zamontować osłony przeciwsłoneczne okien,",
+            "b": "otworzyć okna dla lepszej komunikacji,",
+            "c": "oczyścić okna usuwając śnieg, lód i inne zanieczyszczenia."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 310,
+        "question": "Przy wymianie olejów hydraulicznych należy:",
+        "options": {
+            "a": "stosować tylko rodzaje olejów, które są zalecane przez producenta maszyny,",
+            "b": "stosować zawsze tylko oleje ulegające biodegradacji,",
+            "c": "stosować dowolny rodzaj oleju."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 311,
+        "question": "Aby zapewnić utrzymanie sprawności technicznej maszyny roboczej należy:",
+        "options": {
+            "a": "użytkować maszynę/urządzenie tylko pod pełnym obciążeniem,",
+            "b": "użytkować maszynę/urządzenie nie przekraczając 50% dopuszczalnego obciążenia,",
+            "c": "przestrzegać obsług technicznych i konserwacji wg instrukcji obsługi i eksploatacji."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 312,
+        "question": "Na placu budowy puste pojemniki po smarach, filtry oleju i zużyte oleje należy:",
+        "options": {
+            "a": "wrzucić do pojemnika na odpady zmieszane,",
+            "b": "umieścić w odpowiednio oznaczonym pojemniku na odpady niebezpieczne,",
+            "c": "wrzucić do dowolnego pojemnika na odpady."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 313,
+        "question": "Naklejki (piktogramy) umiejscowione na maszynie/urządzeniu służą do:",
+        "options": {
+            "a": "przekazania istotnych informacji na temat bezpieczeństwa oraz użytkowania maszyny/urządzenia,",
+            "b": "poinformowania o zakazie zbliżania się do maszyny/urządzenia,",
+            "c": "wskazania miejsc, w których bez żadnego ryzyka można przebywać."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 314,
+        "question": "Punkty smarne w maszynie należy obsługiwać:",
+        "options": {
+            "a": "podczas wszystkich przerw w pracy,",
+            "b": "zgodnie z instrukcją obsługi i eksploatacji maszyny,",
+            "c": "zawsze po 10 godzinach pracy."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 315,
+        "question": "Olej silnikowy o parametrach 5W-50, jest:",
+        "options": {
+            "a": "olejem wielosezonowym,",
+            "b": "olejem tylko zimowym,",
+            "c": "olejem tylko letnim."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 316,
+        "question": "Przed rozpoczęciem pracy na nowym typie maszyny/urządzenia operator powinien:",
+        "options": {
+            "a": "wykonać przegląd okresowy,",
+            "b": "wykonać pracę próbną,",
+            "c": "zapoznać się z instrukcją obsługi i eksploatacji maszyny/urządzenia."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 317,
+        "question": "Obsługa OTC jest to:",
+        "options": {
+            "a": "obsługa techniczna codzienna,",
+            "b": "obsługa techniczna czasowa,",
+            "c": "obsługa techniczna całodobowa."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 318,
+        "question": "Podstawowe rodzaje obsług to:",
+        "options": {
+            "a": "obsługa całodobowa, wielosezonowa, roczna, technologiczna,",
+            "b": "obsługa wizualna, czynna, bierna,",
+            "c": "obsługa codzienna, okresowa, magazynowa, transportowa."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 319,
+        "question": "Akumulatory, podczas uruchamiania maszyny przy pomocy akumulatora wspomagającego, należy połączyć:",
+        "options": {
+            "a": "szeregowo,",
+            "b": "krzyżowo,",
+            "c": "równolegle."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 320,
+        "question": "W przypadku ubytku elektrolitu spowodowanego wylaniem się go przez pękniętą obudowę akumulatora należy:",
+        "options": {
+            "a": "dolać wody demineralizowanej do poziomu 10 mm ponad górne krawędzie płyt,",
+            "b": "dolać elektrolit do właściwego poziomu i naładować akumulator,",
+            "c": "zabezpieczyć miejsce wycieku w zakresie ochrony środowiska, a następnie wymienić akumulator."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 321,
+        "question": "Czynności, jakie wykonuje operator w ramach obsługi codziennej w trakcie pracy, to:",
+        "options": {
+            "a": "kontrola słuchowa pracy maszyny oraz obserwacja wskaźników,",
+            "b": "uzupełnianie płynów eksploatacyjnych i codzienne smarowanie,",
+            "c": "czyszczenie maszyny."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 322,
+        "question": "Podczas pompowania opony koła maszyny należy:",
+        "options": {
+            "a": "nie stać bezpośrednio przy pompowanym kole,",
+            "b": "stać przy pompowanym kole pod warunkiem używania hełmu ochronnego,",
+            "c": "kontrolować stan napompowanego koło poprzez ugięcie bocznej części opony."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 323,
+        "question": "Jeśli producent przewidział docieranie eksploatacyjne, to należy je realizować:",
+        "options": {
+            "a": "bez obciążenia,",
+            "b": "z obciążeniem maksymalnym,",
+            "c": "z obciążeniem zalecanym w instrukcji obsługi i eksploatacji maszyny/urządzenia."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 324,
+        "question": "W trakcie magazynowania maszyny na podwoziu kołowym koła maszyny powinny być:",
+        "options": {
+            "a": "zdjęte z maszyny,",
+            "b": "odciążone,",
+            "c": "zabezpieczone klinami."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 325,
+        "question": "Przejazd maszyną po drogach publicznych należy wykonywać w pozycji:",
+        "options": {
+            "a": "transportowej,",
+            "b": "przerzutowej,",
+            "c": "roboczej."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 326,
+        "question": "Podczas załadunku maszyny na środek transportowy operator powinien:",
+        "options": {
+            "a": "znać maksymalną prędkość dopuszczoną dla danego środka transportowego,",
+            "b": "wykonać najazd z prędkością co najmniej 5 [km/h],",
+            "c": "znać dopuszczalny kąt nachylenia płyt najazdowych dla danej maszyny."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 327,
+        "question": "Za umiejscowienie i zabezpieczenie maszyny na środku transportowym odpowiedzialny jest:",
+        "options": {
+            "a": "przewoźnik (np. kierowca),",
+            "b": "właściciel lub osoba odpowiedzialna za maszyny w firmie,",
+            "c": "operator maszyny."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 328,
+        "question": "Podczas magazynowania maszyny należy się upewnić, czy:",
+        "options": {
+            "a": "w kabinie nie zostały dokumenty maszyny,",
+            "b": "maszyna ustawiona jest przodem do wyjazdu,",
+            "c": "nie ma wycieków płynów eksploatacyjnych."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 329,
+        "question": "Zabezpieczenie maszyny na czas postoju magazynowego polega na:",
+        "options": {
+            "a": "oczyszczeniu maszyny z brudu i korozji,",
+            "b": "zdemontowaniu wszystkich filtrów i zabezpieczeniu ich przed wilgocią,",
+            "c": "uzupełnieniu do pełna zbiornika oleju hydraulicznego."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 330,
+        "question": "Tłoczyska siłowników hydraulicznych, podczas obsługi technicznej magazynowej maszyny, należy:",
+        "options": {
+            "a": "rozebrać i wymienić w nich uszczelnienia,",
+            "b": "zdemontować i oczyścić,",
+            "c": "zabezpieczyć przed korozją."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 331,
+        "question": "Podczas transportu maszyny:",
+        "options": {
+            "a": "można przewozić narzędzia i inne przedmioty w łyżce, jeśli jest wolna,",
+            "b": "na niewielkie odległości można przewozić narzędzia i inny przedmioty w narzędziu roboczym,",
+            "c": "nie można przewozić narzędzi i innych przedmiotów w narzędziu roboczym."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 332,
+        "question": "Podczas załadunku maszyny na środek transportu:",
+        "options": {
+            "a": "operator powinien wjechać na środek transportu samodzielnie,",
+            "b": "zalecana jest pomoc drugiej osoby,",
+            "c": "zalecana jest pomoc drugiej osoby tylko w przypadku załadunku na przyczepę niskopodwoziową."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 333,
+        "question": "Zalecany sposób załadunku ciężkich maszyn roboczych na przyczepy niskopodwoziowe, to:",
+        "options": {
+            "a": "załadunek zmechanizowany z rampy czołowej,",
+            "b": "załadunek na linach,",
+            "c": "załadunek przy użyciu innych maszyn."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 334,
+        "question": "Podczas dłuższego magazynowania maszyny zbiornik paliwa powinien być:",
+        "options": {
+            "a": "uzupełniony do pełna, aby zapobiec kondensacji pary wodnej wewnątrz zbiornika,",
+            "b": "uzupełniony do 1/3 jego pojemności i pozostawiony otwarty,",
+            "c": "pusty, aby nie powodować zagrożenia pożarowego."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 335,
+        "question": "Podczas obsługi codziennej maszyny należy sprawdzić stan:",
+        "options": {
+            "a": "wartości ciśnienia roboczego w układzie hydraulicznym,",
+            "b": "narzędzi i wyposażenia,",
+            "c": "połączeń i szczelności układu hydraulicznego."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 336,
+        "question": "Jeżeli silnik maszyny nie pracował dłuższy czas podczas obsługi codziennej należy:",
+        "options": {
+            "a": "uruchomić silnik i delikatnie zwiększać obroty, aby szybciej osiągnąć temperaturę roboczą,",
+            "b": "sprawdzić poziom oleju oraz innych płynów eksploatacyjnych ,",
+            "c": "wymienić filtr wstępny paliwa."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 337,
+        "question": "Podczas pompowania opon w maszynie roboczej operator powinien:",
+        "options": {
+            "a": "stanąć z boku bieżnika opony lub z drugiej strony maszyny,",
+            "b": "stać bezpośrednio przed oponą, aby kontrolować ciśnienie,",
+            "c": "upewnić się, że osoby postronne znajdują się w pobliżu."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 338,
+        "question": "Informacje dotyczące usterek, ich kodów i sposobów usuwania znajdują się w dokumencie o nazwie:",
+        "options": {
+            "a": "książka maszyny budowlanej,",
+            "b": "raport dzienny,",
+            "c": "instrukcja obsługi i eksploatacji."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 339,
+        "question": "Prawidłowa kolejność podłączania akumulatora wspomagającego do rozładowanego akumulatora w maszynie jest następująca:",
+        "options": {
+            "a": "zacisk dodatni akumulatora w maszynie, zacisk dodatni akumulatora wspomagającego, zacisk ujemny akumulatora wspomagającego, rama maszyny,",
+            "b": "rama maszyny, zacisk dodatni akumulatora w maszynie, zacisk ujemny akumulatora wspomagającego, zacisk dodatni akumulatora wspomagającego,",
+            "c": "zacisk ujemny akumulatora w maszynie, zacisk dodatni akumulatora wspomagającego, zacisk ujemny akumulatora wspomagającego, rama maszyny."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 340,
+        "question": "W przypadku stwierdzenia ubytku elektrolitu w akumulatorze należy:",
+        "options": {
+            "a": "uzupełnić go wodą inną niż destylowana,",
+            "b": "uzupełnić go wodą destylowaną lub demineralizowaną,",
+            "c": "uzupełnić go płynem DOT-3."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 341,
+        "question": "Sprawdzanie stanu naładowania akumulatora rozruchowego 12 [V] poprzez \"iskrzenie\" grozi:",
+        "options": {
+            "a": "wybuchem ulatniającego się z akumulatora wodoru,",
+            "b": "zatarciem alternatora,",
+            "c": "porażeniem prądem o wysokim napięciu."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 342,
+        "question": "Przed magazynowaniem koła w maszynie kołowej należy:",
+        "options": {
+            "a": "poluzować, aby zmniejszyć obciążenie statyczne śrub mocujących,",
+            "b": "napompować do maksymalnego ciśnienia, aby zapobiec odkształceniom opon,",
+            "c": "odciążyć, aby zapobiec odkształceniom opon."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 343,
+        "question": "Do zakresu obsługi technicznej codziennej maszyny nie należy:",
+        "options": {
+            "a": "sprawdzenie poziomu oleju w silniku,",
+            "b": "kontrola i regulacja luzów zaworów,",
+            "c": "sprawdzenie stanu ogumienia i ciśnienia w oponach."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 344,
+        "question": "Podczas czyszczenia chłodnicy, aby uniknąć jej uszkodzenia, należy:",
+        "options": {
+            "a": "stosować silny strumień wody pod wysokim ciśnieniem,",
+            "b": "używać do czyszczenia ostrych narzędzi,",
+            "c": "utrzymywać dyszę sprężonego powietrza w odpowiedniej odległości od chłodnicy."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 345,
+        "question": "Celem stosowania smarowania w maszynach roboczych jest:",
+        "options": {
+            "a": "zmniejszenie tarcia,",
+            "b": "zwiększenie prędkości obrotowej silnika,",
+            "c": "podniesienie temperatury współpracujących elementów."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 346,
+        "question": "Najczęściej stosowany w instalacjach elektrycznych maszyn roboczych typ bezpieczników, to:",
+        "options": {
+            "a": "bezpieczniki różnicowe,",
+            "b": "bezpieczniki automatyczne,",
+            "c": "bezpieczniki topikowe."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 347,
+        "question": "Zjawisko elektrostatyczności podczas tankowania maszyny może doprowadzić do:",
+        "options": {
+            "a": "pożaru,",
+            "b": "zatrucia,",
+            "c": "zwarcia instalacji elektrycznej."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 348,
+        "question": "W przypadku podłączenia równoległego dwóch akumulatorów o różnych napięciach znamionowych:",
+        "options": {
+            "a": "może dojść do wybuchu akumulatora o niższym napięciu znamionowym,",
+            "b": "może dojść do rozładowania obu akumulatorów,",
+            "c": "należy użyć grubszych kabli, niż przy akumulatorach o takich samych napięciach znamionowych."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 349,
+        "question": "Podczas sprawdzania ciśnienia w oponie maszyna powinna być:",
+        "options": {
+            "a": "obciążona, aby pomiar był dokładniejszy,",
+            "b": "uruchomiona i rozgrzana,",
+            "c": "bez obciążenia, a opona powinna być zimna."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 350,
+        "question": "Prawidłowe podłączanie akumulatora do prostownika podczas ładowania, to:",
+        "options": {
+            "a": "zacisk dodatni akumulatora do bieguna ujemnego prostownika, zacisk ujemny akumulatora do bieguna dodatniego prostownika,",
+            "b": "zacisk dodatni akumulatora do bieguna dodatniego prostownika, biegun ujemny prostownika do \"masy\" maszyny,",
+            "c": "zacisk dodatni akumulatora do bieguna dodatniego prostownika, zacisk ujemny akumulatora do bieguna ujemnego prostownika."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 351,
+        "question": "Po podłączeniu akumulatora zaciski smaruje się:",
+        "options": {
+            "a": "wazeliną techniczną,",
+            "b": "smarem grafitowym,",
+            "c": "smarem zawierającym dwusiarczek molibdenu."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 352,
+        "question": "Aby w sposób bezpieczny wykonać pompowanie opony należy:",
+        "options": {
+            "a": "stać naprzeciwko wentyla opony podczas pompowania,",
+            "b": "używać krótkiego przewodu pneumatycznego z manometrem,",
+            "c": "stać z boku bieżnika opony i używać długiego przewodu pneumatycznego."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 353,
+        "question": "Jednym z celów obsługi magazynowej jest:",
+        "options": {
+            "a": "naprawa uszkodzonych elementów maszyny przed kolejnym sezonem,",
+            "b": "przygotowanie maszyny do transportu dla przyszłego użytkownika,",
+            "c": "zabezpieczenie maszyny przed korozją i innymi szkodliwymi czynnikami podczas długotrwałego przechowywania."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 354,
+        "question": "Jeśli podczas obsługi technicznej codziennej operator zauważy nieszczelność w układzie chłodzenia, wówczas powinien:",
+        "options": {
+            "a": "uzupełnić płyn chłodzący i kontynuować pracę,",
+            "b": "zgłosić nieszczelność i nie używać maszyny do czasu naprawy,",
+            "c": "zorganizować płyn i uzupełnić do poziomu minimalnego, jeśli wyciek jest niewielki."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 355,
+        "question": "Poziom płynu chłodzącego w zbiorniku wyrównawczym powinien być sprawdzany:",
+        "options": {
+            "a": "podczas każdej obsługi technicznej codziennej,",
+            "b": "tylko podczas obsługi technicznej okresowej,",
+            "c": "tylko w przypadku przegrzania silnika."
+        },
+        "correct_answer": "a",
+        "image": null
+    },
+    {
+        "id": 356,
+        "question": "Jeśli operator zauważy wyciek płynu hydraulicznego podczas obsługi technicznej codziennej, to powinien:",
+        "options": {
+            "a": "zmniejszyć obroty i kontynuować pracę,",
+            "b": "zgłosić wyciek i nie używać maszyny do czasu naprawy,",
+            "c": "uzupełnić olej i kontynuować pracę."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 357,
+        "question": "Częstotliwość wykonywania obsługi technicznej okresowej zależy:",
+        "options": {
+            "a": "od ilości wykonanych cykli roboczych,",
+            "b": "od daty produkcji maszyny,",
+            "c": "od liczby przepracowanych godzin (motogodzin)."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 358,
+        "question": "Jeśli podczas obsługi technicznej codziennej operator zauważy niski poziom oleju silnikowego, to powinien:",
+        "options": {
+            "a": "uzupełnić poziom dowolnym dostępnym olejem, nawet jeśli jest innego rodzaju,",
+            "b": "uzupełnić olej do odpowiedniego poziomu,",
+            "c": "podjąć pracę, jeśli poziom nie jest bardzo niski i nie świeci się kontrolka."
+        },
+        "correct_answer": "b",
+        "image": null
+    },
+    {
+        "id": 359,
+        "question": "Czynnością charakterystyczną dla obsługi technicznej sezonowej jest:",
+        "options": {
+            "a": "sprawdzenie wartości napięcia ładowania,",
+            "b": "kontrola wartości ciśnienia roboczego układu hydraulicznego,",
+            "c": "wymiana płynu chłodzącego na odpowiedni do pory roku."
+        },
+        "correct_answer": "c",
+        "image": null
+    },
+    {
+        "id": 360,
+        "question": "Podstawowe czynności obsługowe, które należy wykonać przed uruchomieniem silnika wysokoprężnego, to:",
+        "options": {
+            "a": "odpowietrzenie układu paliwowego, sprawdzenie poziomu oleju przekładniowego, sprawdzenie rozrusznika,",
+            "b": "sprawdzenie poziomu oleju w skrzyni biegów, sprawdzenie działanie układu roboczego, sprawdzenie działanie hamulców,",
+            "c": "sprawdzenie poziomu oleju w silniku, sprawdzenie poziomu płynu chłodzącego, sprawdzenie stanu filtra powietrza."
+        },
+        "correct_answer": "c",
+        "image": null
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "task": "Proszę omówić obsługę akumulatora elektrycznego w maszynie, na której jest przeprowadzany egzamin w ramach obsługi technicznej codziennej.",
+        "image": null
+    },
+    {
+        "id": 2,
+        "task": "Proszę omówić w jaki sposób należy sprawdzić poziom oleju hydraulicznego w układzie roboczym oraz jak ten olej uzupełnić.",
+        "image": null
+    },
+    {
+        "id": 3,
+        "task": "Proszę omówić podstawowe czynności obsługi technicznej codziennej związane z układem roboczym maszyny.",
+        "image": null
+    },
+    {
+        "id": 4,
+        "task": "Proszę omówić, jak sprawdzić poziom płynu chłodniczego i jak go prawidłowo uzupełnić. W przypadku maszyn chłodzonych powietrzem proszę omówić czynności obsługi technicznej codziennej tego systemu.",
+        "image": null
+    },
+    {
+        "id": 5,
+        "task": "Proszę omówić podstawowe czynności obsługi technicznej codziennej związane z przygotowaniem maszyny do pracy dotyczące elementów podwozia, ze zwróceniem uwagi na układ jezdny.",
+        "image": null
+    },
+    {
+        "id": 6,
+        "task": "Proszę sprawdzić poziom oleju w misce olejowej silnika oraz wskazać, w jaki sposób uzupełnia się ten olej.",
+        "image": null
+    },
+    {
+        "id": 7,
+        "task": "Proszę omówić w jaki sposób sprawdza się poziom oleju w zwolnicach i jak się go uzupełnia. Jaki rodzaj oleju używany jest do zwolnic.",
+        "image": null
+    },
+    {
+        "id": 8,
+        "task": "Proszę omówić i przeprowadzić sprawdzenie stanu ogumienia kół w ramach obsługi technicznej codziennej.",
+        "image": null
+    },
+    {
+        "id": 9,
+        "task": "Proszę omówić postępowanie operatora maszyny, jeżeli zaświeci się kontrolka zanieczyszczonego filtra powietrza.",
+        "image": null
+    },
+    {
+        "id": 10,
+        "task": "Proszę omówić obsługę techniczną codzienną silnika przed pracą na dwóch dowolnie wybranych układach.",
+        "image": null
+    },
+    {
+        "id": 11,
+        "task": "Proszę zademonstrować sprawdzenie czystości filtra powietrza.",
+        "image": null
+    },
+    {
+        "id": 12,
+        "task": "Proszę sprawdzić stan techniczny zamontowanego w maszynie narzędzia roboczego.",
+        "image": null
+    },
+    {
+        "id": 13,
+        "task": "Proszę omówić obsługę codzienną układu hydraulicznego przed pracą.",
+        "image": null
+    },
+    {
+        "id": 14,
+        "task": "Proszę wskazać umiejscowienie wskaźników płynów eksploatacyjnych występujących w maszynie, na której jest przeprowadzany egzamin.",
+        "image": null
+    },
+    {
+        "id": 15,
+        "task": "Proszę omówić przygotowanie maszyny lub urządzenia do transportu na innym środku transportu.",
+        "image": null
+    },
+    {
+        "id": 16,
+        "task": "Proszę wskazać trzy przykładowe punkty smarne w maszynie lub urządzeniu.",
+        "image": null
+    },
+    {
+        "id": 17,
+        "task": "Proszę wskazać gdzie znajduje się wyjście awaryjne (ewakuacyjne) z kabiny operatora. Kiedy i w jaki sposób należy z niego skorzystać.",
+        "image": null
+    },
+    {
+        "id": 18,
+        "task": "Proszę wskazać w instrukcji obsługi i eksploatacji informację dotyczącą pojemności zbiornika paliwa oraz podać jaki rodzaj paliwa jest właściwy dla wskazanej maszyny lub urządzenia.",
+        "image": null
+    },
+    {
+        "id": 19,
+        "task": "Proszę wskazać w instrukcji obsługi i eksploatacji dane dotyczące właściwej ilości oleju w układzie smarowania silnika oraz odszukać informację na temat rodzaju oleju zalecanego przez producenta maszyny.",
+        "image": null
+    },
+    {
+        "id": 20,
+        "task": "Proszę sprawdzić działanie oświetlenia maszyny.",
+        "image": null
+    }
+]
