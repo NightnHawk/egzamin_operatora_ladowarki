@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Egzamin: Ładowarki Jednonaczyniowe Klasa III</title>
+    <title>Egzamin: Koparki Jednonaczyniowe Klasa III</title>
     <style>
         :root { --primary: #2563eb; --success: #22c55e; --error: #ef4444; --bg: #f8fafc; --skip: #64748b; }
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: var(--bg); margin: 0; display: flex; justify-content: center; padding: 20px; }
@@ -20,6 +20,7 @@
         button.action-btn { border: none; padding: 12px 25px; border-radius: 6px; cursor: pointer; font-weight: bold; transition: opacity 0.2s; }
         #next-btn { background: var(--primary); color: white; flex-grow: 2; }
         #skip-btn { background: var(--skip); color: white; flex-grow: 1; }
+        #prev-btn { background: #e2e8f0; color: #475569; }
         button.action-btn:disabled { opacity: 0.3; cursor: not-allowed; }
         
         .stats { font-size: 0.9rem; color: #64748b; }
@@ -45,123 +46,128 @@
     </div>
 
     <div class="controls">
+        <button id="prev-btn" class="action-btn" onclick="prevQuestion()">Poprzednie</button>
         <button id="skip-btn" class="action-btn" onclick="skipQuestion()">Pomiń</button>
-        <button id="next-btn" class="action-btn" onclick="nextQuestion()" disabled>Następne →</button>
+        <button id="next-btn" class="action-btn" onclick="nextQuestion()" disabled>Następne</button>
     </div>
 </div>
 
 <script>
     let questions = [];
+    let userAnswers = []; // Tablica na odpowiedzi: null (brak), 'a', 'b' lub 'c'
     let currentIdx = 0;
     let score = 0;
 
-async function loadQuiz() {
-    try {
-        const response = await fetch('questions_test.json');
-        
-        // Sprawdź czy plik w ogóle istnieje na serwerze
-        if (!response.ok) {
-            throw new Error(`Nie znaleziono pliku JSON (HTTP ${response.status})`);
+    async function loadQuiz() {
+        try {
+            const response = await fetch('questions_test.json');
+            if (!response.ok) throw new Error(`HTTP ${response.status}`);
+            const data = await response.json();
+            
+            questions = data;
+            // Inicjalizacja tablicy odpowiedzi pustymi wartościami
+            userAnswers = new Array(questions.length).fill(null);
+            
+            document.getElementById('total-count').innerText = questions.length;
+            showQuestion();
+        } catch (e) {
+            document.getElementById('q-text').innerHTML = `<div style="color:red">Błąd: ${e.message}</div>`;
         }
-
-        const data = await response.json();
-        
-        // Sprawdź czy dane to tablica i czy nie jest pusta
-        if (!Array.isArray(data)) {
-            throw new Error("Format danych jest nieprawidłowy (oczekiwano listy [])");
-        }
-        
-        if (data.length === 0) {
-            throw new Error("Plik JSON jest pusty (brak pytań)");
-        }
-
-        questions = data;
-        document.getElementById('total-count').innerText = questions.length;
-        showQuestion();
-        console.log("Pomyślnie załadowano pytań:", questions.length);
-
-    } catch (e) {
-        console.error("Szczegółowy błąd:", e);
-        document.getElementById('q-text').innerHTML = `
-            <div style="color: red; font-weight: bold;">
-                Błąd krytyczny: ${e.message}<br>
-                <small style="color: gray;">Sprawdź czy plik questions_test.json znajduje się w tym samym folderze co index.html</small>
-            </div>
-        `;
-    }
-}
-
-function showQuestion() {
-    if (!questions || questions.length === 0) return;
-
-    const q = questions[currentIdx];
-    document.getElementById('current-idx').innerText = currentIdx + 1;
-    
-    // Zabezpieczenie przed brakującym tekstem pytania
-    document.getElementById('q-text').innerText = q.question || "Brak treści pytania w pliku JSON";
-    
-    document.getElementById('opt-a').innerText = q.options?.a || "";
-    document.getElementById('opt-b').innerText = q.options?.b || "";
-    document.getElementById('opt-c').innerText = q.options?.c || "";
-
-    const imgElement = document.getElementById('q-img');
-    if (q.image) {
-        // Dodajemy timestamp, aby uniknąć cache'owania obrazków przez przeglądarkę
-        imgElement.src = `extracted_images/${q.image}?t=${new Date().getTime()}`;
-        imgElement.style.display = 'block';
-        
-        // Obsługa błędu ładowania obrazka
-        imgElement.onerror = () => {
-            console.warn(`Nie znaleziono obrazka: extracted_images/${q.image}`);
-            imgElement.style.display = 'none';
-        };
-    } else {
-        imgElement.style.display = 'none';
     }
 
-    const btns = document.querySelectorAll('.option');
-    btns.forEach(btn => {
-        btn.className = 'option';
-        btn.disabled = false;
-    });
-    document.getElementById('next-btn').disabled = true;
-    document.getElementById('skip-btn').disabled = false;
-}
-
-    function checkAnswer(choice) {
+    function showQuestion() {
+        if (!questions.length) return;
         const q = questions[currentIdx];
+        const savedAnswer = userAnswers[currentIdx];
+
+        // UI Reset
+        document.getElementById('current-idx').innerText = currentIdx + 1;
+        document.getElementById('q-text').innerText = q.question;
+        document.getElementById('opt-a').innerText = q.options.a;
+        document.getElementById('opt-b').innerText = q.options.b;
+        document.getElementById('opt-c').innerText = q.options.c;
+
+        // Obrazek
+        const img = document.getElementById('q-img');
+        if (q.image) {
+            img.src = `extracted_images/${q.image}`;
+            img.style.display = 'block';
+        } else {
+            img.style.display = 'none';
+        }
+
+        // Przyciski nawigacji
+        document.getElementById('prev-btn').disabled = (currentIdx === 0);
+        
+        // Resetowanie klas przycisków opcji
         const btns = document.querySelectorAll('.option');
-        
+        btns.forEach(btn => {
+            btn.className = 'option';
+            btn.disabled = false;
+        });
+
+        // Jeśli już odpowiedziano na to pytanie wcześniej
+        if (savedAnswer !== null) {
+            renderAnswerState(savedAnswer, q.correct_answer);
+            document.getElementById('next-btn').disabled = false;
+            document.getElementById('skip-btn').disabled = true;
+        } else {
+            document.getElementById('next-btn').disabled = true;
+            document.getElementById('skip-btn').disabled = false;
+        }
+    }
+
+    function renderAnswerState(choice, correct) {
+        const btns = document.querySelectorAll('.option');
         btns.forEach(btn => btn.disabled = true);
-        document.getElementById('skip-btn').disabled = true;
         
-        if (choice === q.correct_answer) {
+        if (choice === correct) {
             document.getElementById(`btn-${choice}`).classList.add('correct');
-            score++;
-            document.getElementById('score').innerText = score;
         } else {
             document.getElementById(`btn-${choice}`).classList.add('incorrect');
-            const correctBtn = document.getElementById(`btn-${q.correct_answer}`);
-            correctBtn.classList.add('correct');
+            document.getElementById(`btn-${correct}`).classList.add('correct');
+        }
+    }
+
+    function checkAnswer(choice) {
+        if (userAnswers[currentIdx] !== null) return; // Zabezpieczenie
+
+        const q = questions[currentIdx];
+        userAnswers[currentIdx] = choice; // Zapisz odpowiedź
+        
+        renderAnswerState(choice, q.correct_answer);
+
+        if (choice === q.correct_answer) {
+            score++;
+            document.getElementById('score').innerText = score;
         }
         
         document.getElementById('next-btn').disabled = false;
+        document.getElementById('skip-btn').disabled = true;
     }
 
-    function skipQuestion() {
-        // Po prostu przechodzimy dalej bez sprawdzania
-        nextQuestion();
+    function prevQuestion() {
+        if (currentIdx > 0) {
+            currentIdx--;
+            showQuestion();
+        }
     }
 
     function nextQuestion() {
-        currentIdx++;
-        if (currentIdx < questions.length) {
+        if (currentIdx < questions.length - 1) {
+            currentIdx++;
             showQuestion();
         } else {
             alert(`Koniec testu! Twój wynik: ${score}/${questions.length}`);
-            currentIdx = 0;
-            score = 0;
-            document.getElementById('score').innerText = "0";
+            // Opcjonalnie: reset wszystkiego
+            location.reload();
+        }
+    }
+
+    function skipQuestion() {
+        // Pominięte pytania zostają jako null w userAnswers
+        if (currentIdx < questions.length - 1) {
+            currentIdx++;
             showQuestion();
         }
     }
