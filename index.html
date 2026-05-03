@@ -5,89 +5,160 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Egzamin: Koparki Jednonaczyniowe Klasa III</title>
     <style>
-        :root { --primary: #2563eb; --success: #22c55e; --error: #ef4444; --bg: #f8fafc; --skip: #64748b; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: var(--bg); margin: 0; display: flex; justify-content: center; padding: 20px; }
-        .container { background: white; max-width: 700px; width: 100%; padding: 30px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); }
+        :root { 
+            --primary: #2563eb; --success: #22c55e; --error: #ef4444; 
+            --bg: #f1f5f9; --skip: #64748b; --sidebar-bg: #ffffff;
+        }
+        body { 
+            font-family: 'Segoe UI', sans-serif; background: var(--bg); 
+            margin: 0; display: flex; height: 100vh; overflow: hidden;
+        }
+
+        /* --- Panel Boczny --- */
+        #sidebar {
+            width: 250px; background: var(--sidebar-bg); border-right: 1px solid #e2e8f0;
+            display: flex; flex-direction: column; height: 100%;
+        }
+        .sidebar-header { padding: 20px; font-weight: bold; border-bottom: 1px solid #e2e8f0; }
+        #question-list { 
+            flex-grow: 1; overflow-y: auto; padding: 10px; 
+            display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; align-content: start;
+        }
+        .q-badge {
+            aspect-ratio: 1; display: flex; align-items: center; justify-content: center;
+            border-radius: 6px; border: 1px solid #cbd5e1; cursor: pointer; font-size: 0.85rem;
+            transition: all 0.2s; background: white;
+        }
+        .q-badge:hover { border-color: var(--primary); background: #eff6ff; }
+        .q-badge.active { outline: 2px solid var(--primary); font-weight: bold; }
+        .q-badge.correct { background: var(--success); color: white; border-color: var(--success); }
+        .q-badge.incorrect { background: var(--error); color: white; border-color: var(--error); }
+        .q-badge.skipped { background: #e2e8f0; color: #475569; }
+
+        /* --- Główna Treść --- */
+        .main-content { flex-grow: 1; overflow-y: auto; padding: 40px 20px; display: flex; justify-content: center; }
+        .container { background: white; max-width: 700px; width: 100%; padding: 30px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); align-self: start; }
+        
         .header { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-bottom: 20px; }
-        .question-img { max-width: 100%; height: auto; border-radius: 8px; margin: 15px 0; display: block; border: 1px solid #ddd; margin-left: auto; margin-right: auto; }
-        .question-text { font-size: 1.2rem; font-weight: 600; color: #1e293b; margin-bottom: 20px; }
-        .option { display: block; width: 100%; padding: 15px; margin: 10px 0; border: 2px solid #e2e8f0; border-radius: 8px; text-align: left; cursor: pointer; transition: all 0.2s; font-size: 1rem; background: none; }
+        .question-img { max-width: 100%; height: auto; border-radius: 8px; margin: 15px auto; display: block; border: 1px solid #ddd; }
+        .question-text { font-size: 1.15rem; font-weight: 600; color: #1e293b; margin-bottom: 20px; }
+        
+        .option { 
+            display: block; width: 100%; padding: 14px; margin: 8px 0; 
+            border: 2px solid #e2e8f0; border-radius: 8px; text-align: left; 
+            cursor: pointer; transition: all 0.2s; font-size: 1rem; background: none; 
+        }
         .option:hover:not([disabled]) { border-color: var(--primary); background: #eff6ff; }
         .option.correct { background-color: var(--success) !important; color: white; border-color: var(--success); }
         .option.incorrect { background-color: var(--error) !important; color: white; border-color: var(--error); }
-        .controls { margin-top: 30px; display: flex; justify-content: space-between; gap: 10px; }
         
-        button.action-btn { border: none; padding: 12px 25px; border-radius: 6px; cursor: pointer; font-weight: bold; transition: opacity 0.2s; }
+        .controls { margin-top: 30px; display: flex; justify-content: space-between; gap: 10px; }
+        .action-btn { border: none; padding: 12px 20px; border-radius: 6px; cursor: pointer; font-weight: bold; transition: opacity 0.2s; }
         #next-btn { background: var(--primary); color: white; flex-grow: 2; }
         #skip-btn { background: var(--skip); color: white; flex-grow: 1; }
         #prev-btn { background: #e2e8f0; color: #475569; }
-        button.action-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+        .action-btn:disabled { opacity: 0.3; cursor: not-allowed; }
         
-        .stats { font-size: 0.9rem; color: #64748b; }
+        @media (max-width: 768px) {
+            body { flex-direction: column; }
+            #sidebar { width: 100%; height: 150px; border-right: none; border-bottom: 1px solid #e2e8f0; }
+            #question-list { grid-template-columns: repeat(10, 1fr); }
+        }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <div class="header">
-        <div class="stats">Pytanie <span id="current-idx">1</span> z <span id="total-count">0</span></div>
-        <div class="stats">Wynik: <span id="score">0</span></div>
+<div id="sidebar">
+    <div class="sidebar-header">Lista pytań</div>
+    <div id="question-list">
+        <!-- Badge pytań generowane przez JS -->
     </div>
+</div>
 
-    <div id="quiz-box">
-        <div id="q-text" class="question-text">Ładowanie pytań...</div>
-        <img id="q-img" class="question-img" style="display:none;">
-        
-        <div id="options-container">
-            <button class="option" id="btn-a" onclick="checkAnswer('a')">a) <span id="opt-a"></span></button>
-            <button class="option" id="btn-b" onclick="checkAnswer('b')">b) <span id="opt-b"></span></button>
-            <button class="option" id="btn-c" onclick="checkAnswer('c')">c) <span id="opt-c"></span></button>
+<div class="main-content">
+    <div class="container">
+        <div class="header">
+            <div style="font-size: 0.9rem; color: #64748b;">Pytanie <span id="current-idx">1</span> / <span id="total-count">0</span></div>
+            <div style="font-size: 0.9rem; font-weight: bold;">Wynik: <span id="score">0</span></div>
         </div>
-    </div>
 
-    <div class="controls">
-        <button id="prev-btn" class="action-btn" onclick="prevQuestion()">Poprzednie</button>
-        <button id="skip-btn" class="action-btn" onclick="skipQuestion()">Pomiń</button>
-        <button id="next-btn" class="action-btn" onclick="nextQuestion()" disabled>Następne</button>
+        <div id="quiz-box">
+            <div id="q-text" class="question-text">Ładowanie...</div>
+            <img id="q-img" class="question-img" style="display:none;">
+            <div id="options-container">
+                <button class="option" id="btn-a" onclick="checkAnswer('a')">a) <span id="opt-a"></span></button>
+                <button class="option" id="btn-b" onclick="checkAnswer('b')">b) <span id="opt-b"></span></button>
+                <button class="option" id="btn-c" onclick="checkAnswer('c')">c) <span id="opt-c"></span></button>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="prev-btn" class="action-btn" onclick="prevQuestion()">Wstecz</button>
+            <button id="skip-btn" class="action-btn" onclick="skipQuestion()">Pomiń</button>
+            <button id="next-btn" class="action-btn" onclick="nextQuestion()" disabled>Następne</button>
+        </div>
     </div>
 </div>
 
 <script>
     let questions = [];
-    let userAnswers = []; // Tablica na odpowiedzi: null (brak), 'a', 'b' lub 'c'
+    let userAnswers = []; // null, {choice: 'a', isCorrect: true/false}
     let currentIdx = 0;
     let score = 0;
 
     async function loadQuiz() {
         try {
             const response = await fetch('questions_test.json');
-            if (!response.ok) throw new Error(`HTTP ${response.status}`);
-            const data = await response.json();
-            
-            questions = data;
-            // Inicjalizacja tablicy odpowiedzi pustymi wartościami
+            questions = await response.json();
             userAnswers = new Array(questions.length).fill(null);
-            
             document.getElementById('total-count').innerText = questions.length;
+            
+            initSidebar();
             showQuestion();
         } catch (e) {
-            document.getElementById('q-text').innerHTML = `<div style="color:red">Błąd: ${e.message}</div>`;
+            document.getElementById('q-text').innerText = "Błąd ładowania pytań.";
         }
     }
 
-    function showQuestion() {
-        if (!questions.length) return;
-        const q = questions[currentIdx];
-        const savedAnswer = userAnswers[currentIdx];
+    function initSidebar() {
+        const list = document.getElementById('question-list');
+        list.innerHTML = '';
+        questions.forEach((_, i) => {
+            const btn = document.createElement('div');
+            btn.className = 'q-badge';
+            btn.id = `badge-${i}`;
+            btn.innerText = i + 1;
+            btn.onclick = () => jumpToQuestion(i);
+            list.appendChild(btn);
+        });
+    }
 
-        // UI Reset
+    function updateSidebar() {
+        questions.forEach((_, i) => {
+            const btn = document.getElementById(`badge-${i}`);
+            btn.classList.remove('active', 'correct', 'incorrect', 'skipped');
+            
+            if (i === currentIdx) btn.classList.add('active');
+            
+            const ans = userAnswers[i];
+            if (ans !== null) {
+                if (ans.isSkipped) btn.classList.add('skipped');
+                else if (ans.isCorrect) btn.classList.add('correct');
+                else btn.classList.add('incorrect');
+            }
+        });
+    }
+
+    function showQuestion() {
+        const q = questions[currentIdx];
+        const saved = userAnswers[currentIdx];
+
         document.getElementById('current-idx').innerText = currentIdx + 1;
         document.getElementById('q-text').innerText = q.question;
         document.getElementById('opt-a').innerText = q.options.a;
         document.getElementById('opt-b').innerText = q.options.b;
         document.getElementById('opt-c').innerText = q.options.c;
 
-        // Obrazek
         const img = document.getElementById('q-img');
         if (q.image) {
             img.src = `extracted_images/${q.image}`;
@@ -96,31 +167,44 @@
             img.style.display = 'none';
         }
 
-        // Przyciski nawigacji
-        document.getElementById('prev-btn').disabled = (currentIdx === 0);
-        
-        // Resetowanie klas przycisków opcji
+        // Resetowanie przycisków
         const btns = document.querySelectorAll('.option');
-        btns.forEach(btn => {
-            btn.className = 'option';
-            btn.disabled = false;
-        });
+        btns.forEach(b => { b.className = 'option'; b.disabled = false; });
+        document.getElementById('prev-btn').disabled = (currentIdx === 0);
 
-        // Jeśli już odpowiedziano na to pytanie wcześniej
-        if (savedAnswer !== null) {
-            renderAnswerState(savedAnswer, q.correct_answer);
+        if (saved && !saved.isSkipped) {
+            renderResult(saved.choice, q.correct_answer);
             document.getElementById('next-btn').disabled = false;
             document.getElementById('skip-btn').disabled = true;
         } else {
             document.getElementById('next-btn').disabled = true;
             document.getElementById('skip-btn').disabled = false;
         }
+        updateSidebar();
     }
 
-    function renderAnswerState(choice, correct) {
-        const btns = document.querySelectorAll('.option');
-        btns.forEach(btn => btn.disabled = true);
+    function checkAnswer(choice) {
+        if (userAnswers[currentIdx] && !userAnswers[currentIdx].isSkipped) return;
         
+        const q = questions[currentIdx];
+        const isCorrect = (choice === q.correct_answer);
+        
+        userAnswers[currentIdx] = { choice, isCorrect, isSkipped: false };
+        renderResult(choice, q.correct_answer);
+        
+        if (isCorrect) {
+            score = userAnswers.filter(a => a && a.isCorrect).length;
+            document.getElementById('score').innerText = score;
+        }
+        
+        document.getElementById('next-btn').disabled = false;
+        document.getElementById('skip-btn').disabled = true;
+        updateSidebar();
+    }
+
+    function renderResult(choice, correct) {
+        const btns = document.querySelectorAll('.option');
+        btns.forEach(b => b.disabled = true);
         if (choice === correct) {
             document.getElementById(`btn-${choice}`).classList.add('correct');
         } else {
@@ -129,51 +213,28 @@
         }
     }
 
-    function checkAnswer(choice) {
-        if (userAnswers[currentIdx] !== null) return; // Zabezpieczenie
-
-        const q = questions[currentIdx];
-        userAnswers[currentIdx] = choice; // Zapisz odpowiedź
-        
-        renderAnswerState(choice, q.correct_answer);
-
-        if (choice === q.correct_answer) {
-            score++;
-            document.getElementById('score').innerText = score;
-        }
-        
-        document.getElementById('next-btn').disabled = false;
-        document.getElementById('skip-btn').disabled = true;
-    }
-
-    function prevQuestion() {
-        if (currentIdx > 0) {
-            currentIdx--;
-            showQuestion();
-        }
+    function jumpToQuestion(i) {
+        currentIdx = i;
+        showQuestion();
     }
 
     function nextQuestion() {
-        if (currentIdx < questions.length - 1) {
-            currentIdx++;
-            showQuestion();
-        } else {
-            alert(`Koniec testu! Twój wynik: ${score}/${questions.length}`);
-            // Opcjonalnie: reset wszystkiego
-            location.reload();
-        }
+        if (currentIdx < questions.length - 1) { currentIdx++; showQuestion(); }
+        else alert("To ostatnie pytanie!");
+    }
+
+    function prevQuestion() {
+        if (currentIdx > 0) { currentIdx--; showQuestion(); }
     }
 
     function skipQuestion() {
-        // Pominięte pytania zostają jako null w userAnswers
-        if (currentIdx < questions.length - 1) {
-            currentIdx++;
-            showQuestion();
+        if (userAnswers[currentIdx] === null) {
+            userAnswers[currentIdx] = { isSkipped: true };
         }
+        nextQuestion();
     }
 
     loadQuiz();
 </script>
-
 </body>
 </html>
